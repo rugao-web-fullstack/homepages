@@ -336,6 +336,73 @@ h1#logo a {
     padding-left: 12px;
     float: right;
 }
+#news {
+    width: 460px;
+    float: left;
+}
+
+#news .head {
+    width: 460px;
+    padding-top: 11px;
+    padding-bottom: 14px;
+}
+
+#news h3,
+#coming h3 {
+    float: left;
+}
+
+#coming {
+    width: 490px;
+    float: left;
+    padding-left: 30px;
+}
+
+#coming .head {
+    width: 490px;
+    padding-top: 11px;
+    padding-bottom: 14px;
+}
+
+#coming .head strong {
+    color: #ff361a;
+}
+
+#coming .content {
+    min-height: 130px;
+    height: auto !important;
+    height: 130px;
+    padding-bottom: 20px;
+}
+
+#coming .content h4 {
+    padding-bottom: 3px;
+}
+
+.content {
+    padding-bottom: 28px;
+}
+
+.content .date {
+    font-size: 10px;
+    color: #fff;
+}
+
+.content img {
+    float: left;
+    width: 68px;
+    padding-right: 8px;
+}
+
+.content p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 16px;
+}
+
+.content a {
+    font-size: 11px;
+}
 
 #footer {
     padding: 15px 0 0 0;
