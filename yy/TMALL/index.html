@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>天猫主页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<!--jquery.js一定要放在bootstrap.js的所有插件上面,,否则功能不能正常显示--> 
+		<!--<script src="js/jquery-1.8.3.min.js"></script>-->
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="row ">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					    <div class="navbar-header">
+				    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						     </button>
+				      	 	<a class="navbar-brand" href="#">喵，欢迎来天猫</a>
+				      	 	<a class="head-login" href="//login.tmall.com/?redirectURL=https%3A%2F%2Fwww.tmall.com%2F%3Fali_trackid%3D2%3Amm_26632258_3504122_55934697%3A1510813103_399_1728664115%26clk1%3D1ca828b1588d727ff7067b389e325f15%26upsid%3D1ca828b1588d727ff7067b389e325f15">请登录</a>
+				      	 	<a class="head-register" href="#">免费注册</a>
+					    </div>
+					
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse head-right" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav navbar-right">
+					        <li class="act">
+					        	<a href="#">我的淘宝<span class="caret"></span></a>
+					        	<div class="display-none">
+					        		<a href="#">已买到的宝贝</a><br />
+					        		<a href="#">已卖出的宝贝</a>
+					        	</div>
+					        </li>
+					        <li><a href="#"><i class="fa fa-shopping-cart"></i>&nbsp;购物车<span class="num">0</span>件</a></li>
+					        <li class="act">
+					        	<a href="#">收藏夹<span class="caret"></span></a>
+					        	<div class="display-none">
+					        		<a href="#">收藏的宝贝</a><br />
+					        		<a href="#">收藏的店铺</a>
+					        	</div>
+					        </li>
+					        <li class="rightborder"></li>
+					        <li class="act">
+					        	<a href="#"><i class="fa fa-mobile"></i>&nbsp;手机版<span class="caret"></span></a>
+					        	<div class="display-none mobile">
+					        		<img src="http://img.alicdn.com/tfs/TB1MDxDRpXXXXXUXFXXXXXXXXXX-175-215.png"/>
+					        	</div>
+					        </li>
+					        <li><a href="#">淘宝网</span></a></li>
+					        <li class="act">
+					        	<a href="#">商家支持<span class="caret"></span></a>
+					        	<div class="display-none merchant">
+					        		<div class="merchant-top mer clear">
+					        			<h5>商家：</h5>
+					        			<a href="#">商家中心</a>
+					        			<a href="#">天猫规则</a>
+					        			<a href="#">商家入驻</a>
+					        			<a href="#">运行服务</a>
+					        			<a href="#">商家品控</a>
+					        			<a href="#">商家工具</a>
+					        			<a href="#">天猫智库</a>
+					        			<a href="#">喵言喵语</a>
+					        		</div>
+					        		<div class="merchant-bottom mer clear">
+					        			<h5>帮助：</h5>
+					        			<a href="#">帮助中心</a>
+					        			<a href="#">问商友</a>
+					        		</div>
+					        		
+					        	</div>
+					        </li>
+					        <li><a href="#"><i class="fa fa-bars"></i>&nbsp;网站导航<span class="caret"></span></a></li>
+					      </ul>
+					    </div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+		<div class="container-fluid body">
+			<div class="row search">
+				<div class="col-md-1 col-lg-1"></div>
+				<div class="col-md-10 col-lg-10">
+					<div class="row">
+						<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 search-left">
+							<img src="http://img.alicdn.com/tfs/TB1MaLKRXXXXXaWXFXXXXXXXXXX-480-260.png"/>
+						</div>
+						<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 search-right clear">
+							<div class="inp clear">
+								<input type="text" placeholder='搜索 天猫 商品/品牌/店铺'/><button>搜索</button>
+							</div>
+							<ul class="clear">
+								<li><a href="" class="hot">针织衫</a></li>
+								<li><a href="">羽绒服</a></li>
+								<li><a href="">四件套</a></li>
+								<li><a href="" class="hot">天猫精灵</a></li>
+								<li><a href="">客厅灯</a></li>
+								<li><a href="">口红</a></li>
+								<li><a href="" class="hot">手机</a></li>
+								<li><a href="">女鞋</a></li>
+								<li><a href="" class="hot">牛奶</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 col-lg-1"></div>
+				
+			</div>
+			<div class="banner">
+				<div class="banner-top">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="banner-body"></div>
+			</div>
+		</div>
+		<srcipt src='js/index.js'></srcipt>
+		<script>
+			$(function(){
+				$('.act').on('mousemove',function(){
+					$(this).find('.display-none').css('display','block');
+					$(this).find('span').addClass('rotate');
+				});
+				$('.act').on('mouseout',function(){
+					$(this).find('.display-none').css('display','none');
+					$(this).find('span').removeClass('rotate');
+				});
+			});
+			
+		</script>
+	</body>
+</html>
