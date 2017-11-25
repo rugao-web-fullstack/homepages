@@ -125,5 +125,14 @@ $(function () {
 	}, function () {
 		$(this).children('img').stop().animate({"right": '20px'}, 200, 'linear');
 	});
+
+	/* 红人穿搭 */
+	
+	/* 快抢发新日 */
+	/* 轮播图部分 */
+	var timerNew = null;
+	timerNew = setInterval(function () {
+
+	}, 2000);
 	
 });
