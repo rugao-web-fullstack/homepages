@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米商城</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <div class="navbar-header1">
+        <ul>
+            <li>小米商城</li>
+            <li>MIUI</li>
+            <li>米聊</li>
+            <li>游戏</li>
+            <li>多看阅读</li>
+            <li>云服务</li>
+            <li>金融</li>
+            <li>米币</li>
+            <li>小米商城手机版</li>
+            <li>问题反馈</li>
+            <li style="border: none">Select Region</li>
+            <li style="margin-left: 400px">登录</li>
+            <li>注册</li>
+            <li style="border: none">消息通知</li>
+            <li class="shop-cart" id="shop-cart"><span class="glyphicon glyphicon-shopping-cart">购物车（0）</span></li>
+        </ul>
+        <div class="shop-msg" id="shop-msg">
+            购物车中还没有商品，赶紧选购吧！
+        </div>
+    </div>
+    <div class="navbar-footer1">
+        <div class="logo"><a href="home.html"></a></div>
+        <div class="second-logo">
+            <ul>
+                <li>小米手机</li>
+                <li>红米</li>
+                <li>笔记本</li>
+                <li>电视</li>
+                <li>盒子</li>
+                <li>新品</li>
+                <li>路由器</li>
+                <li>智能硬件</li>
+                <li>服务</li>
+                <li>社区</li>
+            </ul>
+        </div>
+        <div class="third-logo">
+            <input type="text" placeholder="请搜索....">
+            <button><span class="glyphicon glyphicon-search"></span></button>
+        </div>
+    </div>
+    <div class="pic-turn" style="overflow: hidden">
+        <div class="swiper-container" style="overflow: hidden">
+            <div class="swiper-wrapper" style="margin-left: 60px">
+                <div class="swiper-slide" ><img src="img/upload/pic1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/upload/pic2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/upload/pic3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/upload/pic4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/upload/pic5.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev" style="position: absolute;left: 325px;"></div>
+            <div class="swiper-button-next" style="position: absolute;right: 100px;"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="slide-left" id="slide-left">
+            <ul class="pro-kinds">
+                <li style="margin-top: 15px" id="pro-kinds-1">手机 电话卡 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-2">笔记本 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-3">电视 盒子 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-4">路由器 智能硬件 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-5">移动电源 电池 插线板 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-6">耳机 音箱 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-7">保护套 贴膜 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-8">线材 支架 储存卡 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-9">箱包 服饰 鞋 眼镜 <span class="glyphicon glyphicon-chevron-right"></span></li>
+                <li id="pro-kinds-10">米兔 生活周边 <span class="glyphicon glyphicon-chevron-right"></span></li>
+            </ul>
+        </div>
+        <div class="slide-right">
+            <ul class="kinds-msg">
+                <li id="kinds-msg-1">
+
+                </li>
+                <li id="kinds-msg-2"></li>
+                <li id="kinds-msg-3"></li>
+                <li id="kinds-msg-4"></li>
+                <li id="kinds-msg-5"></li>
+                <li id="kinds-msg-6"></li>
+                <li id="kinds-msg-7"></li>
+                <li id="kinds-msg-8"></li>
+                <li id="kinds-msg-9"></li>
+                <li id="kinds-msg-10"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="pro-content">
+        <div class="load">
+            <ul>
+                <li style="border-left: none"><span class="glyphicon glyphicon-phone"><br>选购手机</span></li>
+                <li><span class="glyphicon glyphicon-gift"><br>企业团购</span></li>
+                <li><span class="glyphicon glyphicon-sort"><br>F码通道</span></li>
+                <li style="border-bottom: none;border-left: none"><span class="glyphicon glyphicon-credit-card"><br>米粉卡</span></li>
+                <li style="border-bottom: none;"><span class="glyphicon glyphicon-refresh"><br>以旧换新</span></li>
+                <li style="border-bottom: none;"><span class="glyphicon glyphicon-floppy-disk"><br>话费充值</span></li>
+                <div class="smsquare1"></div>
+                <div class="smsquare2"></div>
+            </ul>
+        </div>
+        <div class="hot-pro">
+            <img src="./img/hot-pro-1.jpg" alt="">
+            <img src="./img/hot-pro-2.jpg" alt="">
+            <img src="./img/hot-pro-3.jpg" alt="">
+        </div>
+    </div>
+    <div class="star-pro">
+        <h3>小米明星单品</h3>
+        <ul class="menu-dec">
+            <li><span class="glyphicon glyphicon-menu-left"></span></li>
+            <li><span class="glyphicon glyphicon-menu-right"></span></li>
+        </ul>
+        <div class="single-pro">
+            <div class="single-pro-1">
+                <ul>
+                    <li style="margin-left: 0px;border-top: 1px solid #ffac13 ">
+                        <a href="">
+                            <img src="./img/single-pro-1.png" alt="">
+                            <h5>红米Note 5A 高配版</h5>
+                        </a>
+                        <h6>赠水质检测笔、米粉卡，享免息</h6>
+                        <p>899元</p>
+                    </li>
+                    <li style="border-top: 1px solid #83c44e">
+                        <a href="">
+                            <img src="./img/single-pro-2.png" alt="">
+                            <h5>红米Note 4X</h5>
+                        </a>
+                        <h6>4100mAh超长续航，多彩金属</h6>
+                        <p>999元起</p>
+                    </li>
+                    <li style="border-top: 1px solid #2196f3">
+                        <a href="">
+                            <img src="./img/single-pro-3.png" alt="">
+                            <h5>红米4X</h5>
+                        </a>
+                        <h6>4100mAh超长续航，8 核处理器</h6>
+                        <p>699元起</p>
+                    </li>
+                    <li style="border-top: 1px solid #e53935">
+                        <a href="">
+                            <img src="./img/single-pro-4.png" alt="">
+                            <h5>小米电视4A 43英寸 标准版</h5>
+                        </a>
+                        <h6>全高清HDR 四核高性能处理器</h6>
+                        <p>1999元</p>
+                    </li>
+                    <li style="border-top: 1px solid #00c0a5">
+                        <a href="">
+                            <img src="./img/single-pro-5.jpg" alt="">
+                            <h5>小米笔记本</h5>
+                        </a>
+                        <h6>更轻更薄，像杂志一样随身携带</h6>
+                        <p>3599元起</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="single-pro-2">
+                <ul>
+                    <li style="margin-left: 0px;border-top: 1px solid #ffac13 ">
+                        <a href="">
+                            <img src="./img/single-pro-6.jpg" alt="">
+                            <h5>小米手环 2</h5>
+                        </a>
+                        <h6>OLED 显示屏幕，升级计步算法</h6>
+                        <p>149元</p>
+                    </li>
+                    <li style="border-top: 1px solid #83c44e">
+                        <a href="">
+                            <img src="./img/single-pro-7.png" alt="">
+                            <h5>小米净水器 厨下式</h5>
+                        </a>
+                        <h6>直出纯净水，隐藏式安装</h6>
+                        <p>1899元</p>
+                    </li>
+                    <li style="border-top: 1px solid #2196f3">
+                        <a href="">
+                            <img src="./img/single-pro-8.jpg" alt="">
+                            <h5>小米圈铁耳机Pro</h5>
+                        </a>
+                        <h6>独创双动圈+动铁，三单元发声</h6>
+                        <p>149元</p>
+                    </li>
+                    <li style="border-top: 1px solid #e53935">
+                        <a href="">
+                            <img src="./img/single-pro-9.jpg" alt="">
+                            <h5>米家扫地机器人</h5>
+                        </a>
+                        <h6>爱干净，高效完成清扫任务</h6>
+                        <p>1699元</p>
+                    </li>
+                    <li style="border-top: 1px solid #00c0a5">
+                        <a href="">
+                            <img src="./img/single-pro-10.jpg" alt="">
+                            <h5>小米体重秤</h5>
+                        </a>
+                        <h6>100克，喝杯水都可感知的精准</h6>
+                        <p>99元</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="para">
+        <div class="elec">
+            <h3>家电</h3>
+            <ul class="sm-nav">
+                <li class="active">
+                    <h4>热门</h4>
+                </li>
+                <li>
+                    <h4>电视影音</h4>
+                </li>
+                <li>
+                    <h4>电脑</h4>
+                </li>
+                <li>
+                    <h4>家居</h4>
+                </li>
+            </ul>
+            <img src="./img/elec-left.jpg" alt=""  class="elec-left">
+            <div class="elec-right">
+                <ul class="elec-right-pic">
+                    <li class="upper-pic">
+                        <a href=""><img src="./img/elec-right-hot.png" alt=""><h5>小米电视4A 49英寸 标准版</h5></a>
+                        <h6>2GB+8GB 大存储 / 全高清HDR</h6>
+                        <p>2399元</p>
+                        <div id="upper">
+                            <span>比较大，喜欢小米怎么看怎么好<br><i>来自于 白杨love小何 的评价</i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/elec-right-hot.png" alt=""><h5>小米电视4A 49英寸 标准版</h5></a>
+                        <h6>2GB+8GB 大存储 / 全高清HDR</h6>
+                        <p>2399元</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/elec-right-hot.png" alt=""><h5>小米电视4A 49英寸 标准版</h5></a>
+                        <h6>2GB+8GB 大存储 / 全高清HDR</h6>
+                        <p>2399元</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/elec-right-hot.png" alt=""><h5>小米电视4A 49英寸 标准版</h5></a>
+                        <h6>2GB+8GB 大存储 / 全高清HDR</h6>
+                        <p>2399元</p>
+                    </li>
+                    <li style="margin-top: 20px">
+                        <a href=""><img src="./img/elec-right-hot.png" alt=""><h5>小米电视4A 49英寸 标准版</h5></a>
+                        <h6>2GB+8GB 大存储 / 全高清HDR</h6>
+                        <p>2399元</p>
+                    </li>
+                    <li style="margin-top: 20px">
+                        <a href=""><img src="./img/elec-right-hot.png" alt=""><h5>小米电视4A 49英寸 标准版</h5></a>
+                        <h6>2GB+8GB 大存储 / 全高清HDR</h6>
+                        <p>2399元</p>
+                    </li>
+                    <li style="margin-top: 20px">
+                        <a href=""><img src="./img/elec-right-hot.png" alt=""><h5>小米电视4A 49英寸 标准版</h5></a>
+                        <h6>2GB+8GB 大存储 / 全高清HDR</h6>
+                        <p>2399元</p>
+                    </li>
+                    <li style="margin-top: 20px">
+                        <a href=""><img src="./img/elec-right-hot.png" alt=""><h5>小米电视4A 49英寸 标准版</h5></a>
+                        <h6>2GB+8GB 大存储 / 全高清HDR</h6>
+                        <p>2399元</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/swiper-3.4.2.jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/home.js"></script>
+    <script>
+        $(function () {
+            //-----------swiper插件
+            var mySwiper = new Swiper('.swiper-container', {
+                direction: 'horizontal',
+                loop: true,
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                paginationBulletRender: function (swiper, index, className) {
+                    return '<img class="' + className + '" src="img/upload/pic' + (index + 1) + '.jpg">';
+                },
+                paginationClickable: true,
+                autoplay: 3000
+            });
+        });
+    </script><!--轮播图swiper-->
+</body>
+</html>
