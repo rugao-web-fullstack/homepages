@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1226px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.topbar {
+    position: relative;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+
+.topbar-nav {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 0px;
+}
+
+.topbar-nav a {
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+.topbar-nav span {
+    margin: 0.5em;
+    color: #424242;
+    font-size: 12px;
+}
+
+.topbar-login {
+    line-height: 40px;
+    height: 40px;
+    float: right;
+    font-size: 0px;
+}
+
+.topbar-login a {
+    color: #b0b0b0;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.topbar-login span {
+    color: #424242;
+}
+
+.topbar-shopping {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.topbar-shopping a {
+    display: block;
+    height: 40px;
+    background: #424242;
+    color: #b0b0b0;
+}
+
+.header {
+    height: 100px;
+}
+
+.header .header-logo {
+    float: left;
+    margin-top: 22px;
+    width: 62px;
+}
+
+.header .header-logo a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    position: relative;
+}
+
+.header .header-logo a::after {
+    width: 55px;
+    height: 55px;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: url(../img/logo.png) no-repeat;
+}
+
+.header .header-nav {
+    float: left;
+    width: 850px;
+    height: 100px;
+}
+
+.header .header-nav ul {
+    padding: 12px 0 0 30px;
+    height: 88px;
+    float: left;
+    list-style-type: none;
+}
+
+.header .header-nav li {
+    float: left;
+}
+
+.header .header-nav .nav-category {
+    width: 127px;
+    height: 85px;
+    padding-right: 15px;
+}
+
+.header .header-nav a {
+    display: block;
+    padding: 26px 10px 38px;
+    font-size: 16px;
+    color: #333;
+}
+
+.header .header-search {
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+
+.header .header-search form {
+    position: relative;
+    height: 50px;
+}
+
+.header .header-search .search-text {
+    position: absolute;
+    top: 0;
+    right: 51px;
+    width: 223px;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.header .header-search .search-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    font-size: 19px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+    padding: 1px 6px;
+    cursor: pointer;
+}
+
+
+/* 
+
+        广告横幅
+
+*/
+
+.banner .home-hero {
+    margin-bottom: 26px;
+}
+
+.banner .banner-slider {
+    height: 460px;
+}
+
+.banner .banner-sub {
+    margin-top: 14px;
+}
+
+.banner .banner-sub .span4 {
+    width: 234px;
+}
+
+.banner .banner-sub .span16 {
+    width: 978px;
+}
