@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>kola</title>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/swiper.min.css" />
+<script src='js/jquery-1.8.3.min.js'></script>
+<script src='js/swiper.min.js'></script>
+</head>
+<body>
+	<nav id='topNav' class='clearfix'>
+		<div class="topNavWrap" class="clearfix">
+			<div id="topNavLeft">
+				<span>考拉欢迎你！</span>
+				<a href="#" class="login">登录</a>
+				<span class='sep'>|</span>
+				<a href="#" class="regisit">免费注册</a>
+			</div>
+			<div id="topNavLeft2">
+				<a href="#" class="app"><i class="fa fa-mobile" aria-hidden="true"></i>手机考拉海购</a>
+				<!-- <img src="erweima.png" alt="" class="erweima"> -->
+			</div>
+			 <ul id="topNavRight">
+			  <li><a href="#">更多</a></li>
+              <li><span class='sep'>|</span></li>
+              <li><a href="#">消费者告知书</a></li>
+              <li><span class='sep'>|</span></li>
+               <li><a href="#">充值中心</a></li>
+              <li><span class='sep'>|</span></li>
+              <li><a href="#">客服中心</a></li>
+              <li><span class='sep'>|</span></li>
+              <li><a href="#">个人中心</a></li>
+              <li><span class='sep'>|</span></li>
+              <li><a href="#">我的订单</a></li>
+              <li><span class='sep'>|</span></li>
+               <li><a href="#"><i class="fa fa-flag" aria-hidden="true"></i>每日签到</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header id='docHead'>
+		<div class="docHeadWrap">
+		  	<div class="logo">
+		  		<img src="img/logo.png" alt="">
+		  	</div>
+		
+		<div class="searchbox">
+			<div class="topsearch">
+				<div class="wrap">
+					<input type="text" id="topSearchInput" placeholder='花王眼罩'>
+					
+					<div class="icon">
+						<i class="fa fa-search " aria-hidden="true"></i>
+					</div>
+					<i class="fa fa-search searchbtn1" aria-hidden="true"></i>
+				</div>
+				
+			<div class="searchint">
+				<ul id="searchintlist">
+					
+				</ul>
+			</div>
+			<ul class="suggestlist clearfix">
+				<li ><a href="#" class="active">话费充值</a></li>
+				<li><span>|</span><a href="#">面膜</a></li>
+				<li><span>|</span><a href="#">德运</a></li>
+				<li><span>|</span><a href="#">铁元</a></li>
+				<li><span>|</span><a href="#">sk2</a></li>
+				<li><span>|</span><a href="#">眼霜</a></li>
+				<li><span>|</span><a href="#">麦片</a></li>
+				<li><span>|</span><a href="#">电动牙刷</a></li>
+				<li><span>|</span><a href="#">乳胶枕</a></li>
+			</ul>
+			<a href="#" id='shopping-cart'>
+			    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+				<span>
+					购物车
+				</span>
+			</a>
+		</div>
+		</div>
+	</header>
+	 <section id='topTabBox' >
+	  <div id="toptab" class='clearfix'>
+	    <div id="topcats">
+	    	<div class="toplevel">
+	    		<div class="lineicon">
+	    			 <span><i class="fa fa-list" aria-hidden="true"></i></span>
+	    			<span>所有分类</span>
+	    		</div>
+	    	</div>
+
+	    </div>
+	    <ul id="functab" class="clearfix">
+	    	<li><a href="#">首页</a></li>
+	    	<li><a href="#">今日限购</a></li>
+	    	<li><a href="#">每日上新</a></li>
+	    	<li><a href="#">国家馆</a></li>
+	    	<li><a href="#">全球旗舰</a></li>
+	    	<li><a href="#">工厂店</a></li>
+	    	<li><a href="#">品质奶粉</a></li>
+	    	<li><a href="#">人气面膜</a></li>
+	    	<li><a href="#">充值</a></li>
+	    </ul>
+	 </div>
+	 </section>
+	 <section id='advertisement'>
+	 	<div class='banner'>
+			<!-- 轮播图 -->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<a href="#">
+			        		<img src="img/1.png" alt="" />
+			        	</a>
+			        </div>
+			        <div class="swiper-slide">
+			        	<a href="#">
+			        		<img src="img/2.jpg" alt="" />
+			        	</a>
+			        </div>
+			        <div class="swiper-slide">
+			        	<a href="#">
+			        		<img src="img/4.jpg" alt="" />
+			        	</a>
+			        </div>
+			        <div class="swiper-slide">
+			        	<a href="#">
+			        		<img src="img/5.jpg" alt="" />
+			        	</a>
+			        </div>
+			        <div class="swiper-slide">
+			        	<a href="#">
+			        		<img src="img/6.jpg" alt="" />
+			        	</a>
+			        </div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			    
+			    <!-- 如果需要导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			    
+			    <!-- 如果需要滚动条 -->
+			    <div class="swiper-scrollbar"></div>
+			</div>
+		</div>
+	 </section>
+     <section class='content'>
+     
+        	<div class="black-week">
+        	<ul>
+        		<li><a href="#"><img src="img/black-week.png" alt=""></a></li>
+        		<li><span>全球血拼，感恩回馈</span></li>
+        		<li><a href="#"><img src="img/7.png" alt=""></a></li>
+        		<li><a href="#"><img src="img/8.png" alt=""></a></li>
+        		<li><a href="#"><img src="img/9.png" alt=""></a></li>
+        		<li><a href="#"><img src="img/10.png" alt=""></a></li>
+        		<li><a href="#"><img src="img/11.png" alt=""></a></li>
+        		<li><a href="#"><img src="img/12.png" alt=""></a></li>
+        		<li><a href="#"><img src="img/13.png" alt=""></a></li>
+        		<li><a href="#"><img src="img/14.png" alt=""></a></li>
+        		<li><a href="#"><img src="img/14.png" alt=""></a></li>
+        		<li></li>
+        	</ul>
+           </div>
+          <div class="newer-recommend">
+          <div class="title">
+          	<ul class="clearfix right">
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><span> 新人推荐</span></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          	</ul>
+          	<div class="bill">
+          		<span>你的必败清单&gt;</span>
+          	</div>
+          </div>
+          <div class="new-product">
+          	<ul class='clearfix'>
+          		<li><a href=""><img src="img/new.png" alt="">
+                <p >MAC 魅可 时尚唇膏 #See sheer 3克<br>一丝优雅一丝甜蜜</p>
+                <p >¥147</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/new.png" alt="">
+                <p >MAC 魅可 时尚唇膏 #See sheer 3克<br>一丝优雅一丝甜蜜</p>
+                <p >¥147</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/new.png" alt="">
+                <p >MAC 魅可 时尚唇膏 #See sheer 3克<br>一丝优雅一丝甜蜜</p>
+                <p >¥147</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/new.png" alt="">
+                <p >MAC 魅可 时尚唇膏 #See sheer 3克<br>一丝优雅一丝甜蜜</p>
+                <p >¥147</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/new.png" alt="">
+                <p >MAC 魅可 时尚唇膏 #See sheer 3克<br>一丝优雅一丝甜蜜</p>
+                <p >¥147</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/new.png" alt="">
+                <p >MAC 魅可 时尚唇膏 #See sheer 3克<br>一丝优雅一丝甜蜜</p>
+                <p >¥147</p>
+                <button>购买</button>
+          		</a></li>
+          		
+          	</ul>
+          </div>
+          </div>
+
+          <div class="beauty">
+            <div class="title">
+          	<ul class="clearfix right">
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><span>美容美妆</span></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          	</ul>
+          	
+          </div>
+            <div class="beauty-things">
+            	<ul class='clearfix'>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		
+          	</ul>
+            </div>
+          
+          </div>
+
+           <div class="beauty">
+            <div class="title">
+          	<ul class="clearfix right">
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><span>母婴儿童</span></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          	</ul>
+          	
+          </div>
+            <div class="beauty-things">
+            	<ul class='clearfix'>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		
+          	</ul>
+            </div>
+          
+          </div>
+
+           <div class="beauty">
+            <div class="title">
+          	<ul class="clearfix right">
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><span>箱包装饰</span></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          	</ul>
+          	
+          </div>
+            <div class="beauty-things">
+            	<ul class='clearfix'>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		
+          	</ul>
+            </div>
+          </div>
+            <div class="beauty">
+            <div class="title">
+          	<ul class="clearfix right">
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><span>营养保健</span></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          	</ul>
+          	
+          </div>
+            <div class="beauty-things">
+            	<ul class='clearfix'>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		
+          	</ul>
+            </div>
+          </div>
+
+          <div class="beauty">
+            <div class="title">
+          	<ul class="clearfix right">
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><span>数码家电</span></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          	</ul>
+          	
+          </div>
+            <div class="beauty-things">
+            	<ul class='clearfix'>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		
+          	</ul>
+            </div>
+          </div>
+          <div class="beauty">
+            <div class="title">
+          	<ul class="clearfix right">
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><span>运动户外</span></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          	</ul>
+          	
+          </div>
+            <div class="beauty-things">
+            	<ul class='clearfix'>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		
+          	</ul>
+            </div>
+          </div>
+
+          <div class="beauty">
+            <div class="title">
+          	<ul class="clearfix right">
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><span>海外直邮</span></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          		<li><a href=""></a></li>
+          	</ul>
+          	
+          </div>
+            <div class="beauty-things">
+            	<ul class='clearfix'>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升 <br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		<li><a href=""><img src="img/beauty.png" alt="">
+                <p >CPB 肌肤之钥 水磨精华液 170毫升<br>保湿隔离,塑造细腻光泽</p>
+                <p >【黑五券后低至810元】¥810</p>
+                <button>购买</button>
+          		</a></li>
+          		
+          	</ul>
+            </div>
+          </div>
+     </section>
+     <footer>
+     	<div>
+     		<p>100%正品</p>
+     		<p>正品保障，假一赔十</p>
+     	</div>
+     	<div>
+     		<p>100%正品</p>
+     		<p>正品保障，假一赔十</p>
+     	</div>
+     	<div>
+     		<p>100%正品</p>
+     		<p>正品保障，假一赔十</p>
+     	</div>
+     	<div>
+     		<p>100%正品</p>
+     		<p>正品保障，假一赔十</p>
+     	</div>
+     </footer>
+
+	 <script>
+		var swiper = new Swiper('.swiper-container', {
+			loop:true,
+		    spaceBetween: 30,
+		    centeredSlides: true,
+		    autoplay: {
+		        delay: 2500,
+		        disableOnInteraction: false,
+		    },
+		    pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		    },
+		    navigation: {
+		        nextEl: '.swiper-button-next',
+		        prevEl: '.swiper-button-prev',
+		    },
+   		 });
+	</script>
+</body>
+</html>
