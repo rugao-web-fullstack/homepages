@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+   font-size: 10px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;   /*for IE 6,7*/
+}
+.icon-gift{
+    color: #F0067E;
+}
+.sel-location{
+    width:280px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px dashed #555;
+}
+.location li span{
+    margin-right: 8px;
+}
+.loginple{
+    display: inline-block;
+    width:180px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #555;
+}
+.logintitle div a{
+    color: #000;
+}
+.logintitle div a:hover{
+    text-decoration: none;
+    color: #F0067E;
+}
+.loginleft{
+    width:150px;
+}
+.phone{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.sel-more{
+    width:250px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;   /*for IE 6,7*/
+}
+.more{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #555;
+}
+.signevery{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+    color: #555;
+}
+.sign{
+    float: right;
+    margin-top: 15px;
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+    width:80px;
+    color: white;
+    background: #F0067E;
+}
+
+.nav2{
+    top:-15px;
+}
+.nav2 .navbar-header{
+    height: 65px;
+}
+
+#navbar2 ul li a{
+    cursor: pointer;
+    line-height: 65px;
+}
+.head1{
+     display: inline-block;
+     width: 40px;
+     height:40px;
+     background: url("../img/header.png") -150px  -55px no-repeat ;
+ }
+.head2{
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    background: url("../img/header.png") -150px  -104px no-repeat ;
+}
+.head3{
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    background: url("../img/header.png") -150px  -154px no-repeat ;
+}
+.head4{
+    display: inline-block;
+    width: 20px;
+    height:30px;
+    background: url("../img/header.png") 0 -55px no-repeat ;
+}
+#navbar2 ul li .shopbag-one{
+    height: 60px;
+}
+ .shopbag{
+    width:30px;
+    height:20px;
+    border-radius: 10px;
+    border: none;
+    /*color: white;*/
+    background: #F0067E;
+}
+ .shopbag-two{
+     width: 300px;
+ }
+.more li{
+    float:left;
+    margin:0 10px 20px 0;
+    border-radius: 10px;
+}
+.more li a img{
+    border-radius: 4px;
+}
+
+/*.shopbag-one{*/
+    /*top:20px;*/
+    /*width:120px;*/
+    /*height: 50px;*/
+    /*border: 1px solid #ccc;*/
+/*}*/
+/*.shopbag-two{*/
+    /*top:-20px;*/
+/*}*/
