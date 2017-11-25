@@ -1,0 +1,161 @@
+header{
+	height: 34px;
+	border: 1px solid;
+	line-height: 34px;
+	padding:0px 45px ;
+	background: #f2f2f2;
+	color: #999;
+}
+header div{
+	float: left;
+}
+header div a{
+	margin-right: 20px;
+}
+header ul{
+	margin-left: 600px;
+}
+header ul li{
+	float: left;
+}
+header ul li a{
+	padding: 0px 10px;
+	color: #999;
+	width: 60px;
+}
+i.line-right{
+	padding-right: 20px;
+	border-right: 1px solid #999;
+}
+.c-red{
+	margin-right: 4px;
+	color: #ff0036;
+} 
+
+
+/*nav 部分*/
+nav{
+	height: 132px;
+	padding-left: 30px;
+}
+.logo{
+	float: left;
+	height: 132px;
+}
+nav input{
+	float: left;
+	position: relative;
+	top: 36px;
+	left: 128px;
+	width:490px;height:40px;
+	border: 2px solid #ff0036;
+	font-size: 14px;
+}
+nav button{
+	float: left;
+	position: relative;
+	top: 36px;
+	left: 128px;
+	width:130px;
+	height: 40px;
+	border: none;
+	background: #ff0036;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: "黑体";
+}
+nav ul{
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 120px;
+} 
+nav ul li{
+	float: left;
+	padding: 10px 0px;
+}
+nav ul li a{ 
+	padding:0px 12px;
+	font-size: 14px;
+	color: #999;
+	border-right:1px solid #ccc;
+}
+nav ul li.nor a{
+	border-right:none;
+}
+nav ul li:nth-child(1) a,nav ul li:nth-child(4) a,
+nav ul li:nth-child(7) a,nav ul li:nth-child(9) a{
+	color: red;
+}
+
+.links{
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 2px solid #ff0036; 
+	font-size: 16px;
+	
+}
+.links span{
+	margin-left: -220px;
+	display: inline-block;
+	height:36px;
+	width:200px ;
+	background: #ff0036;
+	color: white;
+}
+.links span i{
+	color: #ffe0e6;
+	font-size: 14px;
+	margin: 0px 10px 0px 20px;
+}
+.links img{
+	height: 34px;
+	margin-right: 10px;
+}
+.links ul{
+	display: inline-block;
+}
+.links ul li{
+	float: left;
+}
+.links a{
+ font-size: 14px;
+ margin-right:15px ;
+}
+
+
+/*轮播图部分*/
+.lb{
+	height:500px;
+	width:100%;
+	border: 1px solid;
+}
+.slide{
+	position: relative;
+	width: 2000px;
+	height: 500px;
+	
+	cursor: pointer;
+	/*overflow: hidden;*/
+}
+.main-bar{
+	position: absolute;
+	width:100%;
+	height: 500px;
+	float: left;
+	/*设置透明度*/
+	opacity: 0;
+	filter: aipha(opacity=0);
+}
+.main-bar.show{
+	opacity: 1;
+	filter: aipha(opacity=100);
+}
+.main-bar img{
+	height: 500px;
+	width: 100%;
+}
+
+
+
