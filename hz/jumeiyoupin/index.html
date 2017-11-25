@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>聚美优品</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="box">
+				<ul class="box_left" >
+		            <li><a href="">欢迎来到聚美！</a></li>
+		            <li><a href="#">请登录</a></li>
+		            <li><a href="#">快速注册</a></li>
+		        </ul>
+		        <ul class="box_right">
+		        	<li><a href="">正品保证</a></li>
+		        	<li><a href="">订单查询</a></li>
+		        	<li><a href=""><i class="fa fa-heart" aria-hidden="true"></i>收藏的品牌</a></li>
+		        	<li class="xiala">
+		        		<a href="">我的聚美<i class="fa fa-angle-down xuanzhuan" aria-hidden="true"></i></a>
+	        			<ul class="myjumei_item">
+	        				<li><a href="">我的订单</a></li>
+	        				<li><a href="">我的现金券</a></li>
+	        				<li><a href="">我的红包</a></li>
+	        				<li><a href="">我的余额</a></li>
+	        				<li><a href="">我的提现退款</a></li>
+	        				<li><a href="">我的收藏</a></li>
+	        				<li><a href="">我的心愿单</a></li>
+	        				<li><a href="">会员中心</a></li>
+	        				<li><a href="">礼品卡兑换</a></li>
+	        			</ul>
+		        	</li>
+		        	<li><span>|</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&nbsp;手机聚美</a>&nbsp;&nbsp;&nbsp;<span>|</span></li>
+		        	<li class="xiala">
+		        		
+		        		<a href="">
+		        			&nbsp;更多
+		        			<i class="fa fa-angle-down xuanzhuan" aria-hidden="true"></i>
+		        			<ul class="myjumei_item">
+		        				<li><a href="">邀请好友</a></li>
+		        				<li><a href="">加入收藏</a></li>
+		        				<li><a href="">新浪微博</a></li>
+		        				<li><a href="">聚美微信</a></li>
+		        				<li><a href="">百度贴吧</a></li>
+		        				<li><a href="">腾讯微博</a></li>
+		        				<li><a href="">人人公众主</a></li>
+		        			</ul>
+		        		</a>
+		        	</li>
+		        	
+		        </ul>
+			</div>
+		</div>
+		
+		<div class="right">
+			
+		</div>
+		
+		<div class="header_center">
+			<img src="img/logo_new_v1.jpg"/>
+			<div class="header_center_box">
+				<form action="" method="post">
+					<input type="text" value="" class="header_center_input"/>
+					<button type="submit" class="header_center_btn">搜索</button>
+				</form>
+				<div class="header_center_tips">
+					<ul>
+						<li><a href="">保湿</a> &nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="">面膜</a> &nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="">洗面奶</a> &nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="">补水</a> &nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="">香水</a> &nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="">眼霜</a> &nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="">口红</a> &nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="">护肤套装</a> &nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="">BB霜</a></li>
+					</ul>
+				</div>
+			</div>
+			<img src="img/center_right.png"/>
+		</div>
+
+		<div class="header_bottom">
+			<div class="header_bottom_box">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">极速免税店</a></li>
+					<li><a href="">母婴特卖</a></li>
+					<li><a href="">美妆商城 <i class="fa fa-angle-down xuanzhuan" aria-hidden="true"></i></a></li>
+					<li><a href="">国际轻奢</a></li>
+					<li><a href="">服装运动</a></li>
+					<li><a href="">鞋包配饰</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<ul class="bigpic">
+			<li></li>
+		</ul>
+		
+		<div class="home_top_tab">
+			<ul class="tab_menu">
+				<li class="current"><a href="">今日疯抢</a></li>
+				<li><a href="">明日预告</a></li>
+			</ul>
+		</div>
+		
+		<script type="text/javascript">
+			$(function(){
+				var navLi = $('.xiala');
+				navLi.mouseenter(function(){
+					$(this).children('ul').slideDown(200);
+				});
+				navLi.mouseleave(function(){
+					$(this).children('ul').slideUp(150);
+				});
+			});
+		</script>
+		
+
+	</body>
+</html>
