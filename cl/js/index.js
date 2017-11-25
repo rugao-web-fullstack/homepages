@@ -1,17 +1,17 @@
 $(function () {
-    $(".goodsfl li").mouseover(function () {
+    $(".goodsfl .li").mouseover(function () {
         $(this).children(".shouji").show();
     });
-    $(".goodsfl li").mouseleave(function () {
+    $("div.goodsfl .li").mouseleave(function () {
         $(this).children(".shouji").hide();
     });
-   /* $(".swiper-slide img").mouseover(function () {
-        $(".swiper-button-next").show();
-        $(".swiper-button-prev").show();
-        mySwiper.stopAutoplay();
-    });
-    $(".swiper-slide img").mouseleave(function () {
-        $(".swiper-button-next").hide();
-        $(".swiper-button-prev").hide();
-    });*/
+    $(".sec").mouseover(function () {
+            $(".zhifu").show(200);
+    })
+    $(".ng-toolbar-item.sec").mouseleave(function () {
+        $(".zhifu").hide(200);
+    })
+    $(".totop").click(function () {
+        $("html,body").animate({scrollTop:0}, 500);
+    })
 });
