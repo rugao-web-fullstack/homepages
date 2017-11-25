@@ -1,0 +1,878 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*导航部分*/
+.nav {
+    width: 100%;
+    background: rgba(244, 244, 244, .8);
+    font-size:14px;
+}
+
+.nav .center {
+    width: 1300px;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    background: rgba(244, 244, 244, .8);
+}
+
+.nav .center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .center ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .center ul li {
+    line-height: 30px;
+}
+
+.nav .center ul.steps span {
+    color: red;
+    font-size: 12px;
+}
+
+.nav .center ul.steps li {
+    margin-left: 20px;
+}
+
+.nav .center ul li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.nav .center ul.steps li:nth-child(2) {
+    margin-left: 6px;
+    color: red;
+}
+
+.nav .center ul.steps li:nth-child(3) {
+    color: #999;
+}
+
+/*top部分*/
+.top {
+    width: 100%;
+}
+
+.top .center {
+    margin: 0 auto;
+    width: 1300px;
+    /*border:1px solid #000;*/
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.leftlogo {
+    width: 20%;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+}
+
+.leftlogo img {
+    height: 150px;
+    width: 100%;
+}
+
+.righttops {
+    padding: 0;
+    /*border:1px solid #000;*/
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.righttops .righttop {
+    box-sizing: border-box;
+    height: 70%;
+    /*border: 1px solid blue;*/
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.righttops .righttop .search {
+
+}
+
+.righttops .righttop .search p span {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #ccc;
+    margin-right: 12px;
+
+    cursor: pointer;
+}
+
+.righttops .righttop .search .searchform {
+    width: 560px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.righttops .righttop .search .searchform input[type='text'] {
+    width: 500px;
+    height: 36px;
+    border: 2px solid rgb(255, 64, 64);
+    outline: none;
+    padding-left: 8px;
+}
+
+.righttops .righttop .search .searchform button {
+    width: 54px;
+    height: 40px;
+    margin-left: 0;
+    border: 0;
+    background: rgb(255, 64, 64);
+    cursor: pointer;
+}
+
+.righttops .righttop .chart {
+    width: 140px;
+    height: 42px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.righttops .righttop .chart i, .righttops .righttop .chart span {
+    font-size: 18px;
+}
+
+.righttops .rightbottom {
+    height: 30%;
+    /*border: 1px solid red;*/
+}
+
+.righttops .rightbottom ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.righttops .rightbottom ul li a {
+    color: #000;
+}
+
+.righttops .rightbottom ul li:hover a {
+    color: red;
+}
+
+/*banner部分*/
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.banner .bg {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner .bg:nth-child(2) {
+    width: 100%;
+    background: rgb(237, 32, 75);
+    position: absolute;
+}
+
+.banner .bg:nth-child(3) {
+    width: 100%;
+    background: rgb(255, 95, 114);
+    position: absolute;
+}
+
+.banner .bg:nth-child(4) {
+    width: 100%;
+    background: rgb(253, 93, 121);
+    position: absolute;
+}
+
+.banner .bg:nth-child(5) {
+    width: 100%;
+    background: rgb(230, 83, 223);
+    position: absolute;
+}
+
+.banner .bg:nth-child(6) {
+    width: 100%;
+    background: rgb(120, 71, 225);
+    position: absolute;
+}
+
+.banner .bg:nth-child(7) {
+    width: 100%;
+    background: rgb(0, 180, 255);
+    position: absolute;
+}
+
+.banner .bg:nth-child(8) {
+    width: 100%;
+    background: rgb(80, 170, 255);
+    position: absolute;
+}
+
+.banner .bg:nth-child(9) {
+    width: 100%;
+    background: rgb(204, 7, 24);
+    position: absolute;
+}
+
+.banner .bg .center {
+    width: 890px;
+    height: 100%;
+    margin: 0 auto;
+    /*border: 1px solid #000;*/
+    /*background: #000;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner .bg .center img {
+    height: 100%;
+}
+
+/*给ul定位的盒子*/
+.banner .bgul {
+    /*position: absolute;*/
+    height: 100%;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.banner ul.class {
+    position: absolute;
+    height: 100%;
+    z-index: 10;
+    width: 205px;
+    background: rgba(66, 46, 50, .9);
+    padding-top: 3px;
+    box-sizing: border-box;
+
+}
+
+.banner ul.class li {
+    width: 100%;
+    line-height: 32px;
+    color: #fff;
+}
+
+.banner ul.class li:hover {
+    background: #fff;
+    color: #000;
+}
+
+.banner ul.class li:hover span {
+    color: #000;
+}
+
+.banner ul.class li i {
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.banner ul.class li span {
+    cursor: pointer;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+/*总body*/
+.body {
+    width: 1300px;
+    height: auto;
+    margin: 10px auto 0 auto;
+    /*border: 1px solid #000;*/
+}
+
+/*body-抢购1*/
+.body .buy1 {
+    display: flex;
+    justify-content: flex-start;
+    /*align-items: center;*/
+    width:100%;
+}
+
+.body .buy1 img {
+    width: 110px;
+    height: 110px;
+}
+
+.body .buy1 p.proname {
+    width: 120px;
+    text-align: left;
+}
+
+.body .buy1 p.price {
+    color: red;
+    font-weight: 700;
+    text-align: left;
+}
+
+.body .buy1 p.info {
+    text-align: left;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.body .buy1 .shops {
+    margin-top: 22px;
+}
+
+.body .buy1 > div {
+    width: 20%;
+    text-align: center;
+}
+
+.body .buy1 > div:nth-child(1) {
+    line-height: 40px;
+    color: #fff;
+    background: rgb(236, 54, 57);
+    padding: 6px;
+}
+
+.body .buy1 > div:nth-child(1) span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.body .buy1 > div:nth-child(2), .body .buy1 > div:nth-child(3), .body .buy1 > div:nth-child(4), .body .buy1 > div:nth-child(5) {
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    padding: 12px;
+    box-sizing: border-box;
+    line-height: 32px;
+}
+
+.body .buy1 > div:nth-child(2), .body .buy1 > div:nth-child(3), .body .buy1 > div:nth-child(4) {
+    border-right: 1px dotted #999;
+}
+
+/*body-抢购2*/
+.body .buy2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    width:100%;
+}
+
+.body .buy2 h3.title {
+    text-align: center;
+    clear: both;
+}
+
+/*定义一个卷轴*/
+h3.title em {
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    width: 140px;
+    line-height: 32px;
+    font-size: 18px;
+    background: rgb(251, 98, 51);
+}
+
+h3.title em .left_triangle {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    border-bottom: 4px solid rgb(200, 78, 78);
+    border-left: 4px solid transparent;
+    text-decoration: underline;
+}
+
+h3.title em .right_triangle {
+    position: absolute;
+    top: 0;
+    right: -4px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    border-bottom: 4px solid rgb(200, 78, 78);
+    border-right: 4px solid transparent;
+    text-decoration: underline;
+}
+
+.body .buy2 > div:nth-child(2), .body .buy2 > div:nth-child(3) {
+    border-top: 1px solid red;
+}
+
+.body .buy2 > div:nth-child(1) {
+    position: relative;
+    width: 23%;
+    text-align: center;
+}
+
+.body .buy2 > div:nth-child(1):hover .shangou {
+    background: rgba(255, 255, 255, .8);
+}
+
+.body .buy2 > div:nth-child(1) div.shangou {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 25%;
+    background: rgba(255, 255, 255, .6);
+    padding: 20px;
+}
+
+.body .buy2 > div:nth-child(1) img {
+    width: 100%;
+}
+
+.body .buy2 > div:nth-child(2), .body .buy2 > div:nth-child(3) {
+    width: 37%;
+}
+
+.body .buy2 .main {
+    width: 100%;
+    margin-top: 6px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.body .buy2 .main > div {
+    width: 50%;
+}
+
+.body .buy2 .main .leftmain img {
+    width: 100%;
+}
+
+.body .buy2 .main .rightmain a {
+    box-sizing: border-box;
+    padding-top: 14px;
+    padding-left: 10px;
+    display: block;
+    line-height: 30px;
+    margin-left: 8px;
+}
+
+.body .buy2 .main .rightmain a .title {
+    font-size: 20px;
+    color: red;
+}
+
+.body .buy2 .main .rightmain a img {
+    width: 110px;
+    height: 110px;
+    margin-left: 100px;
+}
+
+.body .buy2 .main .rightmain a .mes {
+    font-size: 16px;
+    color: #000;
+}
+
+.body .buy2 .main ul.tops {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    width: 96%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.body .buy2 .main ul.tops li {
+    cursor: pointer;
+    padding: 0 6px 3px 6px;
+    position: relative;
+}
+
+.body .buy2 .main ul.tops li.active {
+    border-bottom: 2px solid red;
+}
+
+.body .buy2 .main .tabs {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+
+}
+
+.body .buy2 .main .tabs a {
+    display: block;
+    width: 33%;
+    color: #000;
+    line-height: 30px;
+}
+
+.body .buy2 .main .tabs a:hover {
+    color: red;
+}
+
+.body .buy2 .main .tabs a img {
+    width: 130px;
+    height: 130px;
+}
+
+.body .buy2 .main .sec a {
+    line-height: 24px;
+}
+
+.body .buy2 .main .sec p.titlesec {
+    font-size: 16px;
+    color: #000;
+}
+
+.body .buy2 .main .sec p.messec {
+    font-size: 14px;
+    color: #ccc;
+    width: 80px;
+}
+
+.sec img {
+    margin-top: -60px;
+
+}
+
+.body .buy2 .main .paitop {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.body .buy2 .main .paitop > a {
+    display: block;
+    width: 50%;
+    position: relative;
+    border-right: 1px dotted #000;
+}
+
+.body .buy2 .main .paitop > a img {
+    width: 100%;
+    height: 100%;
+}
+
+.body .buy2 .main .paitop a p.protit {
+    position: absolute;
+    color: #000;
+    font-size: 18px;
+    top: 10%;
+    left: 8%;
+}
+
+.body .buy2 .main .paitop a p.pro_subtit {
+    position: absolute;
+    color: #999;
+    font-size: 14px;
+    top: 22%;
+    left: 8%;
+    width: 100px;
+}
+
+.body .buy2 .main .paitop ul {
+    width: 50%;
+}
+
+.body .buy2 .main .paitop ul li a {
+    display: block;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.body .buy2 .main .paitop ul li a div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.body .buy2 .main .paitop ul li a {
+
+}
+
+.body .buy2 .main .paitop ul li a div img {
+    width: 40%;
+}
+
+.body .buy2 .main .paitop ul li a div p.protit {
+    top: 14%;
+}
+
+.body .buy2 .main .paitop ul li a div p.pro_subtit {
+    top: 40%;
+}
+
+.body .buy2 .main .paibottom {
+    margin: 16px auto 0 auto;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body .buy2 .main .paibottom a {
+    width: 49%;
+    display: flex;
+    position: relative;
+}
+
+.body .buy2 .main .paibottom a img {
+    width: 100%;
+    height: 130px;
+}
+
+.body .buy2 .main .paibottom a p {
+    position: absolute;
+    color: red;
+    top: 14%;
+    left: 8%;
+}
+
+.body .buy2 .main .paibottom a p.go {
+    top: 28%;
+}
+
+/*进口部分*/
+.body .jinkou {
+    width:100%;
+}
+
+.body .jinkou h4 a{
+    color:#000;
+    font-size: 20px;
+    padding-left:20px;
+}
+
+.body .jinkou h4 span{
+    display: inline-block;
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    background: #000;
+    color:#fff;
+    font-size:12px;
+    font-weight:400;
+}
+.body .jinkou>div{
+    margin-top:10px;
+    width:100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.body .jinkou>div div.food{
+    width:75%;
+    display: flex;
+    justify-content:flex-start;
+}
+.body .jinkou>div div.food div.left_banner{
+    width:36%;
+    height:480px;
+    overflow: hidden;
+}
+.body .jinkou>div div.food div.left_banner a img{
+    width:100%;
+}
+.body .jinkou>div div.food div.food_con{
+    width:65%;
+    height:480px;
+    box-sizing: border-box;
+    padding:8px;
+    background:rgb(190,103,55);
+    display: flex;
+    justify-content:flex-start;
+}
+
+.body .jinkou>div div.food div.food_con div.fl{
+    width:70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+}
+.body .jinkou>div div.food div.food_con div.fl #topfood{
+    width:100%;
+    border: 1px solid #000;
+}
+.body .jinkou>div div.food div.food_con div.fl div.fl-top{
+    width:100%;
+    height:50%;
+
+}
+.body .jinkou>div div.food div.food_con div.fl div.fl-top a img{
+    height:100%;
+}
+.body .jinkou>div div.food div.food_con div.fl div.fl-bot{
+    margin-top:0px;
+    width:100%;
+    height:50%;
+    border:1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.body .jinkou>div div.food div.food_con div.fl div.fl-bot a{
+    display: inline-block;
+    
+    
+}
+.body .jinkou>div div.food div.food_con div.fl div.fl-bot a:nth-child(1){
+    border-right:1px solid #000;
+}
+.body .jinkou>div div.food div.food_con div.fl div.fl-bot a img{
+    width:100%;
+    height:100%;
+}
+.body .jinkou>div div.food div.food_con div.rl{
+    width:30%;
+    height:99.4%;
+    border:1px solid #000;
+    border-left:0px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.body .jinkou>div div.food div.food_con div.rl a{
+    display: block;
+    height:50%;
+    width:100%;
+}
+.body .jinkou>div div.food div.food_con div.rl a:nth-child(1){
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.body .jinkou>div div.food div.food_con div.rl a:nth-child(2){
+    border-left:1px solid #000;
+    
+}
+.body .jinkou>div div.food div.food_con div.rl a img{
+    width:100%;
+    height:100%;
+}
+.body .jinkou>div div.category{
+    width:25%;
+    /* border:1px solid #000; */
+    height:480px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.body .jinkou>div div.category a{
+    display: block;
+    width:161px;
+    height:161px;
+    position: relative;
+
+}
+.body .jinkou>div div.category a p.pro_tit{
+    font-size:14px;
+    margin-left:14px;
+    margin-top: 14px;
+}
+.body .jinkou>div div.category a p.pro_subtit{
+    font-size:10px;
+    margin-top:6px;
+    margin-left:14px;
+    color:#999;
+}
+.body .jinkou>div div.category a p.pro_color{
+    width:20px;
+    height:3px;
+    background: #000;
+    font-size: 0;
+    line-height: 0px;
+    margin-top:8px;
+    margin-left:14px;
+}
+.body .jinkou>div div.category a:nth-child(1){
+    background:rgb(255,230,238);
+}
+.body .jinkou>div div.category a:nth-child(1) p.pro_tit{
+    color:#f06291;
+}
+.body .jinkou>div div.category a img{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:100px;
+    height:100px;
+
+}
+.body .jinkou>div div.category a:nth-child(2){
+    background:rgb(255,243,226);
+}
+.body .jinkou>div div.category a:nth-child(2) p.pro_tit{
+    color:#ee9832;
+}
+.body .jinkou>div div.category a:nth-child(3){
+    background:rgb(233,251,240);
+}
+.body .jinkou>div div.category a:nth-child(3) p.pro_tit{
+    color:#54a472;
+}
+.body .jinkou>div div.category a:nth-child(4){
+    background:rgb(249,238,233);
+}
+.body .jinkou>div div.category a:nth-child(4) p.pro_tit{
+    color:#ad7d62;
+}
+.body .jinkou>div div.category a:nth-child(5){
+    background:rgb(240,248,255);
+}
+.body .jinkou>div div.category a:nth-child(5) p.pro_tit{
+    color:#468bcb
+}
+.body .jinkou>div div.category a:nth-child(6){
+    background:rgb(226,248,242);
+}
+.body .jinkou>div div.category a:nth-child(6) p.pro_tit{
+    color:#54a472
+}
