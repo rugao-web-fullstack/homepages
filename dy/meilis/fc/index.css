@@ -470,3 +470,200 @@ a {
 	font-size: 14px;
 	color: #999;
 }
+.mainview > .special {
+	width: 1200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.special > .main-list {
+	margin: 30px 0;
+}
+.mainview > .special > .main-list > .list-title {
+	position: relative;
+	height: 24px;
+	border-left: 8px solid #fe4b50;
+	margin: 15px 0;
+}
+.mainview > .special > .main-list > .list-title > strong {
+	floaT: left;
+	font-size: 20px;
+	line-height: 24px;
+	margin-left: 10px;
+}
+.special > .main-list > .list-title > a {
+	float: right;
+	font-size: 12px;
+	color: #333;
+}
+.special > .main-list > .list-title > a:hover {
+	text-decoration: underline;
+}
+.special > .main-list > .list-title > ol {
+	float: left;
+	width: 770px;
+	line-height: 24px;
+	margin-left: 40px;
+}
+.special > .main-list > .list-title > ol > dt > li, .special > .main-list > .list-title > ol > dd > li {
+	float: left;
+	line-height: 24px;
+	margin: 0 10px;
+	color: #666;
+	font-size: 14px;
+}
+.special > .main-list > .list-title > ol > dd {
+	color: #666;
+	font-size: 14px;
+}
+.special > .main-list > .list-title > ol > dd > li {
+	float: left;
+}
+.special > .main-list > .list-title > ol > dd > li a {
+	color: #666;
+	font-size: 14px;
+	margin: 0 5px;
+}
+.special > .main-list > .list-title > ol > dd > li a:hover {
+	text-decoration: underline;
+}
+.special > .main-list > .img-ad-list > .imgs {
+	height: 364px;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li {
+	position: relative;
+	float: left;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li > div {
+	position: absolute;
+	top: 0;
+	width: 183px;
+	height: 364px;
+	border-radius: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+	cursor: pointer;
+	/* transform-style: preserve-3d;
+	perspective: 100px;  */
+}
+/* .special > .main-list > .img-ad-list > .imgs > ul > li > div:hover {
+	transition: 2s;
+	transform: rotateY(360deg);
+} */
+.special > .main-list > .img-ad-list > .imgs > ul > li > div > img {
+	width: 100%;
+	height: 100%;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li > div > span {
+	position: absolute;
+	display: block;
+	width: 120px;
+	line-height: 40px;
+	text-align: center;
+	bottom: 26px;
+	left: 50%;
+	margin-left: -60px;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li:last-child {
+	width: 240px;
+	height: 364px;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li:last-child > .img-square {
+	width: 100%;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li:last-child > .img-square > a {
+	position: absolute;
+	display: block;
+	float: left;
+	margin: 0 10px 10px 0;
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li:last-child > .img-square > a > div {
+	width: 114px;
+	height: 114px;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li:last-child > .img-square > a > div > img {
+	width: 114px;
+}
+.special > .main-list > .img-ad-list > .imgs > ul > li:last-child > .img-square > a > div > span {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: block;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+
+/* 快抢发今日 */
+.new-cont {
+	height: 273px;
+}
+.new-cont > div {
+	float: left;
+	height: 273px;
+}
+.new-cont > div:first-child > img {
+	width: 100%;
+}
+.new-cont > div:first-child {
+	width: 200px;
+}
+.new-cont > div:last-child {
+	position: relative;
+	width: 1000px;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 8px;
+	overflow: hidden;
+}
+.new-cont > div:last-child > span {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 44px;
+	background: rgba(0, 0, 0, 0.2);
+	top: 30%;
+	z-index: 10;
+	color: #fff;
+	text-align: center;
+	font: 20px/44px '宋体';
+	font-weight: 700;
+}
+.new-cont > div:last-child > span:last-child {
+	right: 0;
+}
+.new-cont > div:last-child > ul {
+	position: relative;
+	width: 10000%;
+	height: auto;
+	z-index: 5;
+}
+.new-cont > div:last-child > ul > li {
+	float: left;
+	margin: 0 10px;
+}
+.new-cont > div:last-child > ul > li > a > img {
+	width: 180px;
+}
+.new-cont > div:last-child > ul > li > div > p {
+	font: 14px/20px '微软雅黑';
+	color: #666;
+	margin: 15px 0 5px 0;
+}
+.new-cont > div:last-child > ul > li > div > span {
+	font-size: 20px;
+	color: #FF4B6D;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.new-cont > div:last-child > ul > li > div > del {
+	font-size: 14px;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: line-through;
+}
