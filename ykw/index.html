@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+    <!--------------------头部------------------------->
+    <div class="header">
+        <div class="header_top">
+            <div class="header_top_box">
+                <ul class="header_top_left">
+                    <li>欢迎来到聚美！</li>
+                    <li><a href="#">请登录</a></li>
+                    <li><a href="#">快速注册</a></li>
+                </ul>
+                <ul class="header_top_right">
+                    <li><a href="#">正品保证</a></li>
+                    <li><a href="#">订单查询</a></li>
+                    <li>
+                        <a href="#">
+                            <i class="heart"></i>
+                            收藏的品牌
+                        </a>
+                    </li>
+                    <li class="four" id="four">
+                        <a href="#">
+                            我的聚美
+                            <i class="arrow"></i>
+                            <ul class="jumei">
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">我的红包</a></li>
+                                <li><a href="#">我的现金券</a></li>
+                                <li><a href="#">我的余额</a></li>
+                                <li><a href="#">我的提现退款</a></li>
+                                <li><a href="#">我的收藏</a></li>
+                                <li><a href="#">我的心愿单</a></li>
+                                <li><a href="#">会员中心</a></li>
+                                <li><a href="#">礼品兑换</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="five">
+                        <a href="#">
+                            <span class="line"></span>
+                            <i class="mobile"></i>
+                            手机聚美
+                            <span class="line"></span>
+                        </a>
+                    </li>
+                    <li class="last" id="last">
+                        <a href="#">更多
+                            <i class="arrow"></i>
+                            <ul class="gengduo">
+                                <li><a href="#">邀请好友</a></li>
+                                <li><a href="#">加入收藏</a></li>
+                                <li><a href="#">新浪微博
+                                    <span class="sina">
+                                       <img src="images/sina_er.png" alt="">
+                                   </span>
+                                </a>
+                                </li>
+                                <li ><a href="#">聚美微信
+                                    <span class="weixin">
+                                       <img src="images/jumei_weixin_header1.png" alt="">
+                                   </span>
+                                </a>
+                                </li>
+                                <li><a href="#">百度贴吧</a></li>
+                                <li><a href="#">腾讯微博
+                                    <span class="qq">
+                                       <img src="images/qq_er.png" alt="">
+                                   </span>
+                                </a>
+                                </li>
+                                <li><a href="#">人人公众主页
+                                    <span class="renren">
+                                       <img src="images/renren_er.png" alt="">
+                                   </span>
+                                </a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+        <div class="header_center">
+            <!--logo图标-->
+            <h1 class="logo"><a href="#"></a></h1>
+            <!--搜索框-->
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="请输入查找内容">
+                    <input type="submit" value="搜索">
+                </form>
+                 <ul>
+                    <li><a href="#">保湿</a><s class="line"></s></li>
+                    <li><a href="#">面膜</a><s class="line"></s></li>
+                    <li><a href="#">洗面奶</a><s class="line"></s></li>
+                    <li><a href="#">补水</a><s class="line"></s></li>
+                    <li><a href="#">香水</a><s class="line"></s></li>
+                    <li><a href="#">眼霜</a><s class="line"></s></li>
+                    <li><a href="#">口红</a><s class="line"></s></li>
+                    <li><a href="#">护肤套装</a><s class="line"></s></li>
+                    <li><a href="#">BB霜</a></li>
+                 </ul>
+            </div>
+            <!--购物车-->
+            <div class="buy_box" id="buy_box">
+                <a href="#"><img src="images/cart.gif" alt="">
+                    <span class="num">0</span>
+                    <span class="text">去购物车结算</span>
+                    <span class="arrow"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="header_bottom">
+            <div class="wrap">
+                <!--文字-->
+                <ul class="word">
+                   <li class="red out"><a href="#">首页</a></li>
+                   <li class="out"><a href="#">极速免税店</a></li>
+                   <li class="out"><a href="#">母婴特卖</a></li>
+                   <li id="shop" class="out"><a href="#">美妆商城<i class="rotate"></i></a>
+                       <!--触摸美妆商显示的隐藏栏-->
+                       <div class="hide" id="hide">
+                           <div class="left">
+                               <img src="images/web1.jpg" alt="">
+                               <img src="images/web2.jpg" alt="">
+                           </div>
+                           <ul class="right">
+                               <li style="border-left:none;">
+                                   <p><i class="a inset"></i> 国际大牌</p>
+                                   <span>兰蔻</span>
+                                   <span>娇韵诗</span>
+                                   <span>伊丽莎白雅顿</span>
+                                   <span>雅诗兰黛</span>
+                                   <span>欧莱雅</span>
+                                   <span>兰芝</span>
+                                   <span>倩碧</span>
+                                   <span>SK-II</span>
+                                   <span>雅漾</span>
+                                   <span>菲诗小铺</span>
+                                   <span>悦诗风吟</span>
+                               </li>
+                               <li>
+                                   <p><i class="b inset"></i> 护肤</p>
+                                   <span>洁面</span>
+                                   <span>爽肤水</span>
+                                   <span>精华</span>
+                                   <span>乳液</span>
+                                   <span>面霜</span>
+                                   <span>眼霜</span>
+                                   <span>面膜</span>
+                                   <span>护肤套装</span>
+                               </li>
+                               <li>
+                                   <p><i class="c inset"></i> 彩妆</p>
+                                   <span>卸妆</span>
+                                   <span>BB霜</span>
+                                   <span>粉底液</span>
+                                   <span>粉饼</span>
+                                   <span>眼影</span>
+                                   <span>眼线笔</span>
+                                   <span>睫毛膏</span>
+                                   <span>眉笔</span>
+                                   <span>口红</span>
+                                   <span>腮红</span>
+                               </li>
+                               <li style="border-bottom:none;border-left:none">
+                                   <p><i class="d inset"></i> 香氛</p>
+                                   <span>女士香水</span>
+                                   <span>男士香水</span>
+                                   <span>中性香水</span>
+                                   <span>Q版香水</span>
+                                   <span>香水套装</span>
+                                   <span>精油</span>
+                               </li>
+                               <li style="border-bottom:none;">
+                                   <p><i class="e inset"></i> 男士专区</p>
+                                   <span>洁面</span>
+                                   <span>爽肤水</span>
+                                   <span>面霜</span>
+                                   <span>精华</span>
+                                   <span>护肤套装</span>
+                                   <span>洗发</span>
+                                   <span>沐浴</span>
+                                   <span>SK-II</span>
+                                   <span>雅漾</span>
+                                   <span>菲诗小铺</span>
+                                   <span>悦诗风吟</span>
+                               </li>
+                               <li style="border-bottom:none;">
+                                   <p><i class="f inset"></i> 热门搜索</p>
+                                   <span>面膜贴</span>
+                                   <span>洗面奶</span>
+                                   <span>唇膏</span>
+                                   <span>去黑头</span>
+                                   <span>祛斑</span>
+                                   <span>祛痘</span>
+                                   <span>去角质</span>
+                                   <span>指甲油</span>
+                               </li>
+                           </ul>
+                       </div>
+                   </li>
+                   <li class="out"><a href="#">国际轻奢</a></li>
+                   <li class="out"><a href="#">服装运动</a></li>
+                   <li class="out"><a href="#">鞋包配饰</a></li>
+                </ul>
+                <!--图片-->
+                <ul class="icon">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------------横栏------------------------>
+    <div class="banner"></div>
+
+    <!---------------------主要内容--------------------->
+    <div class="main">
+        <!--切换栏-->
+        <ul class="menu">
+           <li class="current">今日疯抢</li>
+           <li>明日预告</li>
+        </ul>
+
+        <!--图片栏1-->
+        <ul class="list">
+            <li><a href="#"><img src="images/a1.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a4.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a5.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a6.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a1.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/a4.jpg" alt=""></a></li>
+        </ul>
+
+        <!--横栏2-->
+        <div class="banner2"></div>
+
+        <!--每日必看-->
+        <div class="list2" id="list2">
+            <div class="must"></div>
+            <ul class="content">
+               <li>
+                   <div class="mask1"></div>
+                   <div class=" tu"></div>
+                   <div class="top top1"></div>
+                   <p class="p_small">海外直采 &nbsp; 海外价格 &nbsp; 闪电发货</p>
+                   <div class="time">据特卖结束&nbsp; 00:14:06:40</div>
+                   <div class="detail">
+                        <div class="title"><span>【官方授权】</span> 韩国“膜”界药妆、可莱丝升级版，明洞连锁店olive young销量前茅！可莱丝（ MEDIHEAL）IPI亮白金装双倍面膜贴10片，亮白不反弹。皮肤科专家研制：分段式凝胶，稳定型维他命C（AA2G），打破VC易分解、怕光缺点，亮白效果更显著；医学专利材质，吸收更彻底</div>
+                        <div class="price">
+                            <div class="now_price">￥119</div>
+                            <div class="old_price"><del>￥232</del></div>
+                            <button>加入购物车</button>
+                        </div>
+                        <div class="tag">
+                            <img src="images/029_big.jpg" alt="">
+                            <span><em>18</em>人已经购买</span>
+                        </div>
+                   </div>
+               </li>
+               <li>
+                   <div class="mask1"></div>
+                   <div class=" tu"></div>
+                   <div class="top top1"></div>
+                   <p class="p_small">海外直采 &nbsp; 海外价格 &nbsp; 闪电发货</p>
+                    <div class="time">据特卖结束&nbsp; 00:14:06:40</div>
+                    <div class="detail">
+                        <div class="title"><span>【换季必囤，限时少量库存】</span>虽说是性冷淡风的MUJI，但是产品都火遍护肤圈！清爽型的敏感肌专用化妆水，无色无味弱酸性，成分自然又清爽~400ML大容量，爽肤水、水膜、喷雾都可以任性用！越用越喜欢的MUJI,敏感肌也能轻松Hold住！</div>
+                        <div class="price">
+                            <div class="now_price">￥77</div>
+                            <button>加入购物车</button>
+                        </div>
+                        <div class="tag">
+                            <img src="images/029_big.jpg" alt="">
+                            <span><em>76</em>人已经购买</span>
+                        </div>
+
+                    </div>
+                </li>
+               <li>
+                   <div class="mask1"></div>
+                   <div class=" tu"></div>
+                   <div class="top top1"></div>
+                   <p class="p_small">海外直采 &nbsp; 海外价格 &nbsp; 闪电发货</p>
+                    <div class="time">据特卖结束&nbsp; 00:14:06:40</div>
+                    <div class="detail">
+                        <div class="title"><span>【官方授权】</span>Dr.Jart 绿色药丸面膜，V7素颜霜捧红了它，新娘靠它省去了上万元的婚前保养。很薄很水嫩！3D立体纤维紧紧包裹脸，饱满精华【主动传输】到肌肤底层。还原原始水感。亮、白、透、水、嫩，快速拥有新娘脸。</div>
+                        <div class="price">
+                            <div class="now_price">￥185</div>
+                            <div class="old_price"><del>￥300</del></div>
+                            <button>加入购物车</button>
+                        </div>
+                        <div class="tag">
+                            <img src="images/029_big.jpg" alt="">
+                            <span><em>58</em>人已经购买</span>
+                        </div>
+                    </div>
+                </li>
+               <li>
+                   <div class="mask1"></div>
+                   <div class=" tu"></div>
+                   <div class="top top1"></div>
+                   <p class="p_small">海外直采 &nbsp; 海外价格 &nbsp; 闪电发货</p>
+                   <div class="time">据特卖结束&nbsp; 00:14:06:40</div>
+                    <div class="detail">
+                        <div class="title"><span>【官方授权】</span>Dr.Jart 绿色药丸面膜，V7素颜霜捧红了它，新娘靠它省去了上万元的婚前保养。很薄很水嫩！3D立体纤维紧紧包裹脸，饱满精华【主动传输】到肌肤底层。还原原始水感。亮、白、透、水、嫩，快速拥有新娘脸。</div>
+                        <div class="price">
+                            <div class="now_price">￥185</div>
+                            <div class="old_price"><del>￥300</del></div>
+                            <button>加入购物车</button>
+                        </div>
+                        <div class="tag">
+                            <img src="images/029_big.jpg" alt="">
+                            <span><em>58</em>人已经购买</span>
+                        </div>
+                    </div>
+                </li>
+               <li>
+                   <div class="mask1"></div>
+                   <div class=" tu"></div>
+                   <div class="top top1"></div>
+                   <p class="p_small">海外直采 &nbsp; 海外价格 &nbsp; 闪电发货</p>
+                   <div class="time">据特卖结束&nbsp; 00:14:06:40</div>
+                    <div class="detail">
+                        <div class="title"><span>【官方授权】</span>Dr.Jart 绿色药丸面膜，V7素颜霜捧红了它，新娘靠它省去了上万元的婚前保养。很薄很水嫩！3D立体纤维紧紧包裹脸，饱满精华【主动传输】到肌肤底层。还原原始水感。亮、白、透、水、嫩，快速拥有新娘脸。</div>
+                        <div class="price">
+                            <div class="now_price">￥185</div>
+                            <div class="old_price"><del>￥300</del></div>
+                            <button>加入购物车</button>
+                        </div>
+                        <div class="tag">
+                            <img src="images/029_big.jpg" alt="">
+                            <span><em>58</em>人已经购买</span>
+                        </div>
+                    </div>
+                </li>
+               <li>
+                   <div class="mask1"></div>
+                   <div class=" tu"></div>
+                   <div class="top top1"></div>
+                   <p class="p_small">海外直采 &nbsp; 海外价格 &nbsp; 闪电发货</p>
+                   <div class="time">据特卖结束&nbsp; 00:14:06:40</div>
+                    <div class="detail">
+                        <div class="title"><span>【官方授权】</span>Dr.Jart 绿色药丸面膜，V7素颜霜捧红了它，新娘靠它省去了上万元的婚前保养。很薄很水嫩！3D立体纤维紧紧包裹脸，饱满精华【主动传输】到肌肤底层。还原原始水感。亮、白、透、水、嫩，快速拥有新娘脸。</div>
+                        <div class="price">
+                            <div class="now_price">￥185</div>
+                            <div class="old_price"><del>￥300</del></div>
+                            <button>加入购物车</button>
+                        </div>
+                        <div class="tag">
+                            <img src="images/029_big.jpg" alt="">
+                            <span><em>58</em>人已经购买</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!---今日上新--->
+        <div class="today" id="today">
+            <!--标题-->
+            <div class="title">
+                <div class="today_head"></div>
+                <p class="today_tip"><i></i> &nbsp;每日十点上新</p>
+            </div>
+            <!--图片-->
+            <ul class="list3">
+                <li>
+                    <div class="tag_left fangwei"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t1.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p>花王纸尿裤L54*4，聪明妈妈的聪明选择！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                        <div class="end">已结束</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t2.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p><span>【官方授权】</span>贝德玛舒妍卸妆水，卸妆+护肤一起搞定！</p>
+                    <div class="price">
+                        <div class="now">¥119</div>
+                        <div class="old">¥168</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t3.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p>日本•花王Merries纸尿裤NB90片*2， 适用于5kg以下宝宝</p>
+                    <div class="price">
+                        <div class="now">¥200</div>
+                        <div class="old">¥250</div>
+                    </div>
+                    <div class="sold_out"></div>
+                    <div class="mask"></div>
+                </li>
+
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t4.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p><span>【官方授权】</span>美迪惠尔MEDIHEAL水库面膜,补水+修复,敷出水嫩肌!</p>
+                    <div class="price">
+                        <div class="now">¥345</div>
+                        <div class="old">¥445</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left xinpin"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t5.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p>露华浓不脱色粉底液，持妆一整天，不脱色，才出色！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left xinpin"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t6.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p><span>【官方授权】</span>花王纸尿裤L54*4，聪明妈妈的聪明选择！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+
+                <li>
+                    <div class="tag_left fangwei"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t7.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p>欣兰多媚卡雅黑冻膜 225g，强力吸附灰尘污垢。</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t8.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p><span>【官方授权】</span>花王纸尿裤L54*4，聪明妈妈的聪明选择！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left xinpin"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t9.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p>花王纸尿裤L54*4，聪明妈妈的聪明选择！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t10.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p><span>【官方授权】</span>花王纸尿裤L54*4，聪明妈妈的聪明选择！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t11.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p>花王纸尿裤L54*4，聪明妈妈的聪明选择！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="sold_out"></div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t12.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p><span>【官方授权】</span>花王纸尿裤L54*4，聪明妈妈的聪明选择！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t4.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p><span>【官方授权】</span>美迪惠尔MEDIHEAL水库面膜,补水+修复,敷出水嫩肌!</p>
+                    <div class="price">
+                        <div class="now">¥345</div>
+                        <div class="old">¥445</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left xinpin"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t5.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p>露华浓不脱色粉底液，持妆一整天，不脱色，才出色！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+                <li>
+                    <div class="tag_left"></div>
+                    <div class="tag_right">加入购物车</div>
+                    <a href="#"><img src="images/t6.jpg" alt=""></a>
+                    <div class="news">海外直采 海外价格 闪电发货</div>
+                    <p><span>【官方授权】</span>花王纸尿裤L54*4，聪明妈妈的聪明选择！</p>
+                    <div class="price">
+                        <div class="now">¥335</div>
+                        <div class="old">¥680</div>
+                    </div>
+                    <div class="mask"></div>
+                </li>
+            </ul>
+        </div>
+
+        <!--美妆品牌团-->
+        <div class="cosmetic" id="cosmetic">
+            <!--标题-->
+            <div class="title">
+                <div class="cosmetic_head"></div>
+                <a href="#"><i></i>&nbsp; 查看更多>> </a>
+            </div>
+            <!--图片-->
+            <div class="list4">
+                <div class="left">
+                    <a href="#"><img src="images/cosmetic_beauty.jpg" alt=""></a>
+                </div>
+                <ul class="right">
+                    <li><a href="#"><img src="images/cos1.jpg" alt=""></a>
+                        <div class="info">
+                            <p>兰芝品牌团</p>
+                            <p>水润滋养，做高颜值女神</p>
+                            <p>满<span>420</span>赠<span>420</span></p>
+                            <p><i></i> <s class="p_time">00天18时18分20秒</s></p>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="images/cos2.jpg" alt=""></a>
+                        <div class="info">
+                            <p>美即品牌团</p>
+                            <p>情暖冬日 水润回馈</p>
+                            <p>部分满<span>199</span>减<span>100</span>不封顶</p>
+                            <p><i></i> <s class="p_time">00天18时18分20秒</s></p>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="images/cos3.jpg" alt=""></a>
+                        <div class="info">
+                            <p>娇韵诗品牌专场</p>
+                            <p>塑造嫩白水润肌肤</p>
+                            <p>全场<span>39</span>元起</p>
+                            <p><i></i> <s class="p_time">00天18时18分20秒</s></p>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="images/cos4.jpg" alt=""></a>
+                        <div class="info">
+                            <p>雪花秀品牌专场</p>
+                            <p>一场护肤修行</p>
+                            <p>全场<span>39</span>元起</p>
+                            <p><i></i> <s class="p_time">00天18时18分20秒</s></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-------------------------尾部-------------------------->
+    <div class="footer">
+        <ul class="footer_one">
+            <li>
+                <div class="icon icon1"></div>
+                <p>值得信赖美妆电商</p>
+                <p>四千万用户信赖</p>
+            </li>
+            <li>
+                <div class="icon icon2"></div>
+                <p>成功在美上市</p>
+                <p>股票代码NYSE:JMEI</p>
+            </li>
+            <li>
+                <div class="icon icon3"></div>
+                <p>品牌防伪码</p>
+                <p>支持品牌官网验真</p>
+            </li>
+            <li>
+                <div class="icon icon4"></div>
+                <p>30天无理由退货</p>
+                <p>只要不满意无理由退货</p>
+            </li>
+            <li>
+                <div class="icon icon5"></div>
+                <p>百万用户口碑</p>
+                <p>帮你只选对的，不选贵的</p>
+            </li>
+            <li>
+                <div class="icon icon6"></div>
+                <p>订单闪电发货</p>
+                <p>1.5小时订单极速出库</p>
+            </li>
+            <li>
+                <div class="icon icon7"></div>
+                <p>大牌明星推荐</p>
+                <p>打造精致明星脸</p>
+            </li>
+        </ul>
+
+        <div class="footer_two">
+            <ul>
+                <li>服务保障</li>
+                <li>品牌真品防伪码</li>
+                <li>正品保证</li>
+                <li>30天无条件退货</li>
+                <li>7&times;24小时客服服务</li>
+                <li>总裁邮箱：ceo@jumei.com</li>
+            </ul>
+            <ul>
+                <li>使用帮助</li>
+                <li>新手指南</li>
+                <li>常见问题</li>
+                <li>帮助中心</li>
+                <li>用户协议</li>
+            </ul>
+            <ul>
+                <li>支付方式</li>
+                <li>货到付款</li>
+                <li>在线支付</li>
+                <li>余额支付</li>
+                <li>现金券支付</li>
+            </ul>
+            <ul>
+                <li>配送方式</li>
+                <li>包邮政策</li>
+                <li>配送说明</li>
+                <li>运费说明</li>
+                <li>验货签收</li>
+            </ul>
+            <ul>
+                <li>售后服务</li>
+                <li>正品承诺</li>
+                <li>售后咨询</li>
+                <li>退货政策</li>
+                <li>退货办理</li>
+            </ul>
+
+           <div class="weixin" style="display: block">
+                <p>聚美微信</p>
+                <div class="link link2"></div>
+                <p>聚美官方微信</p>
+            </div>
+           <div class="app">
+                <p>手机聚美</p>
+                <div class="link link1"></div>
+                <p>下载移动客户端</p>
+            </div>
+        </div>
+
+        <div class="footer_three"></div>
+
+        <div class="footer_four">
+            <ul>
+                <li><a href="#">关于聚美优品</a></li>
+                <li><a href="#">INVESTOR RELATIONS</a></li>
+                <li><a href="#">合作招商</a></li>
+                <li><a href="#">获取更新</a></li>
+                <li><a href="#">加入聚美</a></li>
+                <li><a href="#">品牌合作专区</a></li>
+                <li><a href="#">网站联盟</a></li>
+                <li><a href="#">媒体报道</a></li>
+                <li><a href="#">商务合作</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_five">
+            <p>COPYRIGHT © 2010-2017 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。客服热线：400-123-8888<br/>
+               京公网安备 11010102001226 |京ICP证111033号 | 食品流通许可证 SP1101051110165515（1-1）| 营业执照
+            </p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <!---------------------右边固定栏------------------------->
+    <div class="main_bar">
+        <ul class="outset">
+            <li class="outset_one">
+                <a href="#"><i></i></a>
+                <div class="out_hide">
+                    <div class="shang">
+                        <p><img src="images/avatar_nonesign.jpg" alt=""></p>
+                        <p class="last1">你好！请 <span>登录</span> | <span>注册</span></p>
+                        <div class="close"></div>
+                    </div>
+                    <div class="xia">
+                        <button>我的订单</button>
+                        <button>我的收藏</button>
+                    </div>
+                </div>
+                <s></s>
+            </li>
+            <li class="outset_two">
+                <i></i> 购<br/>物<br/>车 <i class="two">0</i> <s></s>
+            </li>
+            <li class="outset_three">
+                <div class="inner"><a href="#"><i></i></a>
+                    <div class="hide">
+                        我的财产
+                    </div>
+                </div>
+                <div class="inner"><a href="#"><i></i></a>
+                    <div class="hide">
+                        我的心愿单
+                    </div>
+                </div>
+                <div class="inner"><a href="#"><i></i></a>
+                    <div class="hide">
+                        我看过的
+                    </div>
+                </div>
+                <div class="inner"><a href="#"><i></i></a>
+                    <div class="pic">
+                        <img src="images/qrcode.png" alt="">
+                    </div>
+                </div>
+                <div class="inner"><a href="#"><i></i></a>
+                    <div class="hide">
+                        客服中心
+                    </div>
+                </div>
+                <div class="inner"><a href="#"><i></i></a>
+                    <div class="hide">
+                        返回顶部
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!---------------------左边浮动栏------------------------->
+    <div class="left_bar">
+        <div class="shouye">聚美<br/>首页</div>
+        <ul>
+            <li class="bar1"><a href="#list2"><span id="span1">每日必看</span></a></li>
+            <li class="bar2"><a href="#today"><span id="span2">上单新品</span></a></li>
+            <li class="bar3"><a href="#cosmetic"><span id="span3">品牌团</span></a></li>
+        </ul>
+    </div>
+
+
+
+
+    <script>
+        $(function () {
+//----------------------------------------导航栏点击效果
+            $('.out').click(function () {
+                $(this).addClass('red').siblings().removeClass('red');
+            });
+
+
+//----------------------------------------下拉
+            //顶部灰色导航栏下拉
+            $('.four').mouseenter(function () {
+                $('.jumei').slideDown('fast');
+                $('.four').css({background:'#fff',height:'29px'});
+            });
+            $('.four').mouseleave(function () {
+                $('.jumei').slideUp('fast');
+                $('.four').css({background:'#f2f2f2',height:'28px'});
+            });
+            $('.last').mouseenter(function () {
+                $('.gengduo').slideDown('fast');
+                $('.last').css({background:'#fff',height:'29px'});
+            });
+            $('.last').mouseleave(function () {
+                $('.gengduo').slideUp('fast');
+                $('.last').css({background:'#f2f2f2',height:'28px'});
+            });
+            //显示二维码
+            $('.gengduo li:eq(2)').mouseenter(function () {
+                $('.sina').css({display:'block'});
+            });
+            $('.gengduo li:eq(2)').mouseleave(function () {
+                $('.sina').css({display:'none'});
+            });
+            $('.gengduo li:eq(3)').mouseenter(function () {
+                $('.weixin').css({display:'block'});
+            });
+            $('.gengduo li:eq(3)').mouseleave(function () {
+                $('.weixin').css({display:'none'});
+            });
+            $('.gengduo li:eq(5)').mouseenter(function () {
+                $('.qq').css({display:'block'});
+            });
+            $('.gengduo li:eq(5)').mouseleave(function () {
+                $('.qq').css({display:'none'});
+            });
+            $('.gengduo li:eq(6)').mouseenter(function () {
+                $('.renren').css({display:'block'});
+            });
+            $('.gengduo li:eq(6)').mouseleave(function () {
+                $('.renren').css({display:'none'});
+            });
+            //美妆商城下拉
+            $('#shop').mouseenter(function () {
+                $('#hide').slideDown('fast');
+            });
+            $('#shop').mouseleave(function () {
+                $('#hide').slideUp('fast');
+            });
+
+
+
+//---------------------------------------右边固定栏
+        $('.outset_one').mouseenter(function () {
+            $('.out_hide').css({display:'block'})
+        });
+        $('.outset_one').mouseleave(function () {
+            $('.out_hide').css({display:'none'})
+        });
+        $('.close').click(function () {
+            $('.out_hide').css({display:'none'})
+        });
+        $('.outset_one a').mouseenter(function () {
+            $('.outset_one i').css({background:'url(images/ibar_sprites.png) -145px 0'});
+        });
+        $('.outset_one a').mouseleave(function () {
+            $('.outset_one i').css({background:'url(images/ibar_sprites.png)'});
+        });
+        $('.outset_two').mouseenter(function () {
+            $('.outset_two i:eq(0)').css({background:'url(images/ibar_sprites.png) -33px -30px'})
+        });
+        $('.outset_two').mouseleave(function () {
+            $('.outset_two i:eq(0)').css({background:'url(images/ibar_sprites.png) 0 -30px'})
+        });
+        $('.inner:first a').mouseenter(function () {
+            $('.inner:first i').css({background:'url(images/ibar_sprites.png) -33px -56px'});
+            $('.inner:first .hide').css({
+                opacity:'1',
+                transform:'translateX(30px)'
+            })
+        });
+        $('.inner:first a').mouseleave(function () {
+            $('.inner:first i').css({background:'url(images/ibar_sprites.png) 0 -56px'});
+            $('.inner:first .hide').css({
+                opacity:'0',
+                transform:'translateX(-30px)'
+            })
+        });
+        $('.inner:eq(1) a').mouseenter(function () {
+            $('.inner:eq(1) i').css({background:'url(images/ibar_sprites.png) -33px -84px'});
+            $('.inner:eq(1) .hide').css({
+                opacity:'1',
+                transform:'translateX(30px)',
+            })
+        });
+        $('.inner:eq(1) a').mouseleave(function () {
+            $('.inner:eq(1) i').css({background:'url(images/ibar_sprites.png) 0 -84px'});
+            $('.inner:eq(1) .hide').css({
+                opacity:'0',
+                transform:'translateX(-30px)'
+            })
+        });
+        $('.inner:eq(2) a').mouseenter(function () {
+            $('.inner:eq(2) i').css({background:'url(images/ibar_sprites.png) -36px -110px'});
+            $('.inner:eq(2) .hide').css({
+                opacity:'1',
+                transform:'translateX(30px)'
+            })
+        });
+        $('.inner:eq(2) a').mouseleave(function () {
+            $('.inner:eq(2) i').css({background:'url(images/ibar_sprites.png) -4px -110px'});
+            $('.inner:eq(2) .hide').css({
+                opacity:'0',
+                transform:'translateX(-30px)'
+            })
+        });
+        $('.inner:eq(3) a').mouseenter(function () {
+            $('.inner:eq(3) .pic').css({
+                display:'block'
+            })
+        });
+        $('.inner:eq(3) a').mouseleave(function () {
+            $('.inner:eq(3) .pic').css({
+                display:'none'
+            })
+        });
+        $('.inner:eq(4) a').mouseenter(function () {
+            $('.inner:eq(4) i').css({background:'url(images/ibar_sprites.png) -33px -176px'});
+            $('.inner:eq(4) .hide').css({
+                opacity:'1',
+                transform:'translateX(30px)'
+            })
+        });
+        $('.inner:eq(4) a').mouseleave(function () {
+            $('.inner:eq(4) i').css({background:'url(images/ibar_sprites.png) 0 -176px'});
+            $('.inner:eq(4) .hide').css({
+                opacity:'0',
+                transform:'translateX(-30px)'
+            })
+        });
+        $('.inner:eq(5) a').mouseenter(function () {
+            $('.inner:eq(5) .hide').css({
+                opacity:'1',
+                transform:'translateX(30px)'
+            })
+        });
+        $('.inner:eq(5) a').mouseleave(function () {
+            $('.inner:eq(5) .hide').css({
+                opacity:'0',
+                transform:'translateX(-30px)'
+            })
+        });
+
+
+//-----------------------------------左侧浮动栏
+            $('.bar1').click(function () {
+                $(this).css({
+                    background: 'url(images/pc_new.jpg) -177px 0 no-repeat'
+                });
+                $('.bar1 span').css({
+                    color:'#fff'
+                });
+                $('.bar2').css({
+                    background: 'url(images/pc_new.jpg) 0 -123px no-repeat'
+                });
+                $('.bar2 span').css({
+                    color:'#8f8f8f'
+                });
+                $('.bar3').css({
+                    background: 'url(images/pc_new.jpg) 0 -186px no-repeat'
+                });
+                $('.bar3 span').css({
+                    color:'#8f8f8f'
+                });
+//                $('.bar2').mouseenter(function () {
+//                    $(this).css({ background: 'url(images/pc_new.jpg) -89px -123px no-repeat'})
+//                });
+//                $('.bar2').mouseleave(function () {
+//                    var color = $('#span1').css('color');
+//                    if(color !== '#fff'){
+//                        $(this).css({ background: 'url(images/pc_new.jpg) 0 -123px no-repeat'});
+//                        console.log('1111111111111')
+//                    }
+//                });
+//                $('.bar3').mouseenter(function () {
+//                    $(this).css({ background: 'url(images/pc_new.jpg) -89px -186px no-repeat'})
+//                });
+//                $('.bar3').mouseleave(function () {
+//                    var color = $('#span1').css('color');
+//                    if(color !== '#fff'){
+//                        $(this).css({ background: 'url(images/pc_new.jpg) 0 -186px no-repeat'});
+//                        console.log('22222222')
+//                    }
+//
+//                })
+            });
+            $('.bar2').click(function () {
+                $(this).css({
+                    background: 'url(images/pc_new.jpg) -176px -123px no-repeat'
+                });
+                $('.bar2 span').css({
+                    color:'#fff'
+                });
+                $('.bar1').css({
+                    background: 'url(images/pc_new.jpg) 0 0 no-repeat'
+                });
+                $('.bar1 span').css({
+                    color:'#8f8f8f'
+                });
+                $('.bar3').css({
+                    background: 'url(images/pc_new.jpg) 0 -186px no-repeat'
+                });
+                $('.bar3 span').css({
+                    color:'#8f8f8f'
+                });
+//                $('.bar1').mouseenter(function () {
+//                    $(this).css({ background: 'url(images/pc_new.jpg) -89px 0 no-repeat'})
+//                });
+//                $('.bar1').mouseleave(function () {
+//                    var color = $('#span2').css('color');
+//                    if(color !== '#fff'){
+//                        $(this).css({ background: 'url(images/pc_new.jpg) 0 0 no-repeat'})
+//                    }
+//                });
+//                $('.bar3').mouseenter(function () {
+//                    $(this).css({ background: 'url(images/pc_new.jpg) -89px -186px no-repeat'})
+//                });
+//                $('.bar3').mouseleave(function () {
+//                    var color = $('#span1').css('color');
+//                    if(color !== '#fff'){
+//                        $(this).css({ background: 'url(images/pc_new.jpg) 0 -186px no-repeat'})
+//                    }
+//                })
+
+            });
+            $('.bar3').click(function () {
+                $(this).css({
+                    background: 'url(images/pc_new.jpg) -176px -186px no-repeat'
+                });
+                $('.bar3 span').css({
+                    color:'#fff'
+                });
+                $('.bar1').css({
+                    background: 'url(images/pc_new.jpg) 0 0 no-repeat'
+                });
+                $('.bar1 span').css({
+                    color:'#8f8f8f'
+                });
+                $('.bar2').css({
+                    background: 'url(images/pc_new.jpg) 0 -123px no-repeat'
+                });
+                $('.bar2 span').css({
+                    color:'#8f8f8f'
+                });
+//                $('.bar1').mouseenter(function () {
+//                    $(this).css({ background: 'url(images/pc_new.jpg) -89px 0 no-repeat'})
+//                });
+//                $('.bar1').mouseleave(function () {
+//                    var color = $('#span3').css('color');
+//                    if(color !== '#fff'){ $(this).css({
+//                        background: 'url(images/pc_new.jpg) 0 0 no-repeat'})
+//                    }
+//                });
+//                $('.bar2').mouseenter(function () {
+//                    $(this).css({ background: 'url(images/pc_new.jpg) -89px -123px no-repeat'})
+//                });
+//                $('.bar2').mouseleave(function () {
+//                    var color = $('#span3').css('color');
+//                    if(color !== '#fff'){$(this).css(
+//                        { background: 'url(images/pc_new.jpg) 0 -123px no-repeat'})
+//                    }
+//                });
+
+
+
+            });
+
+            console.log($('.must').offset().top);  //1913
+            console.log($('.today').offset().top);  //4301
+            console.log($('.cosmetic').offset().top);  //6818
+
+            $(window).scroll(function () {
+                if($(window).scrollTop()<1913){
+                    $('.left_bar').css({display:'none'});
+                }
+                if($(window).scrollTop()>1913){
+                    $('.left_bar').css({display:'block'});
+                    $('.bar1').css({
+                        background: 'url(images/pc_new.jpg) -177px 0 no-repeat'
+                    });
+                    $('.bar1 span').css({
+                        color:'#fff'
+                    });
+                    $('.bar2').css({
+                        background: 'url(images/pc_new.jpg) 0 -123px no-repeat'
+                    });
+                    $('.bar2 span').css({
+                        color:'#8f8f8f'
+                    });
+                    $('.bar3').css({
+                        background: 'url(images/pc_new.jpg) 0 -186px no-repeat'
+                    });
+                    $('.bar3 span').css({
+                        color:'#8f8f8f'
+                    });
+                }if($(window).scrollTop()>4300){
+                    $('.left_bar').css({display:'block'});
+                    $('.bar2').css({
+                        background: 'url(images/pc_new.jpg) -176px -123px no-repeat'
+                    });
+                    $('.bar2 span').css({
+                        color:'#fff'
+                    });
+                    $('.bar1').css({
+                        background: 'url(images/pc_new.jpg) 0 0 no-repeat'
+                    });
+                    $('.bar1 span').css({
+                        color:'#8f8f8f'
+                    });
+                    $('.bar3').css({
+                        background: 'url(images/pc_new.jpg) 0 -186px no-repeat'
+                    });
+                    $('.bar3 span').css({
+                        color:'#8f8f8f'
+                    });
+                }if($(window).scrollTop()>6817){
+                    $('.left_bar').css({display:'block'});
+                    $('.bar3').css({
+                        background: 'url(images/pc_new.jpg) -176px -186px no-repeat'
+                    });
+                    $('.bar3 span').css({
+                        color:'#fff'
+                    });
+                    $('.bar1').css({
+                        background: 'url(images/pc_new.jpg) 0 0 no-repeat'
+                    });
+                    $('.bar1 span').css({
+                        color:'#8f8f8f'
+                    });
+                    $('.bar2').css({
+                        background: 'url(images/pc_new.jpg) 0 -123px no-repeat'
+                    });
+                    $('.bar2 span').css({
+                        color:'#8f8f8f'
+                    });
+                }
+//
+            });
+
+//---------------------------------图片显隐
+            for(let i=0;i<15;i++){
+//                console.log($('.list3 li').eq(i).html());
+                $('.list3 li').eq(i).hover(function () {
+                    $('.list3 li').eq(i).children('.tag_left').css({display:'block'});
+                    $('.list3 li').eq(i).children('.tag_right').css({display:'block'});
+                    $('.list3 li').eq(i).children('.news').css({display:'block'});
+                    $('.list3 li').eq(i).children('.mask').css({display:'block'});
+                },function () {
+                    $('.list3 li').eq(i).children('.tag_left').css({display:'none'});
+                    $('.list3 li').eq(i).children('.tag_right').css({display:'none'});
+                    $('.list3 li').eq(i).children('.news').css({display:'none'});
+                    $('.list3 li').eq(i).children('.mask').css({display:'none'});
+                });
+
+            }
+
+            for(let i=0;i<6;i++){
+                $('.content li').eq(i).hover(function () {
+                    $('.content li').eq(i).children('.mask1').css({display:'block'});
+                    $('.content li').eq(i).children('.p_small').css({display:'block'});
+                },function () {
+                    $('.content li').eq(i).children('.mask1').css({display:'none'});
+                    $('.content li').eq(i).children('.p_small').css({display:'none'});
+                });
+
+            }
+
+
+//---------------------------------倒计时
+            var intDiff = parseInt(200000); //倒计时总秒数量
+            function showtime(intDiff) {
+                var timer= setInterval(function () {
+                    var day = 0,
+                        hour = 0,
+                        minute = 0,
+                        second = 0;
+                    if(intDiff > 0){
+                        day = Math.floor(intDiff/(60*60*24));
+                        hour = Math.floor(intDiff/(60*60) - (day*24));
+                        minute = Math.floor((intDiff/60) - (day*24*60)-(hour*60));
+                        second = Math.floor((intDiff) - (day*24*60*60) - (hour*60*60) - (minute*60));
+                    }
+                    if(day<=9){
+                        day = '0'+day;
+                    }
+                    if(hour<=9){
+                        hour = '0'+hour;
+                    }
+                    if(minute<=9){
+                        minute = '0'+minute;
+                    }
+                    if(second<=9){
+                        second = '0'+second;
+                    }
+//                    console.log($('.time').html());
+                    $('.time').html('据特卖结束&nbsp; '+day+':'+ hour +':'+ minute+ ':'+ second);
+                    $('.p_time').html(day+'天'+ hour +'时'+ minute+ '分'+ second + '秒');
+                    intDiff--;
+                },1000);
+            }
+            showtime(intDiff);
+
+
+
+
+
+
+
+    });
+    </script>
+
+</body>
+</html>
