@@ -39,6 +39,28 @@ $(function () {
 		$('.select-box>span').html('搜' + $(this).children().html());
 	});
 
+	var timerList = null;
+	/* 导航栏列表 */
+	for (let i = 0; i < $('.market>ul>li').length; i++) {
+		$('.market>ul>li').eq(i).hover(function () {
+			clearInterval(timerList);
+			$('.market>ol>li').eq(i).css('display', 'block').siblings('li').css('display', 'none');
+		}, function () {
+			timerList = setInterval(function () {
+				$('.market>ol>li').eq(i).css('display', 'none');
+			}, 200);
+		});
+		$('.market>ol>li').eq(i).hover(function () {
+			clearInterval(timerList);
+			$(this).eq(i).css('display', 'block').siblings('li').css('display', 'none');
+		}, function () {
+			timerList = setInterval(function () {
+				$('.market>ol>li').eq(i).css('display', 'none');
+			}, 200);
+		});
+	}
+	
+
 	/* 轮播图 */
 	/* 轮播图下标 */
 	for (var i = 0; i < $('.slide-img>ul>li').length; i++) {
@@ -114,6 +136,17 @@ $(function () {
 		});
 	}
 
+	/* 右侧导航啦 */
+	for (let i = 0; i < $('.r-sidebar>ol>li').length-1; i++) {
+		$('.r-sidebar>ol>li').eq(i).hover(function () {
+			$(this).css('background', '#ef2f23').prev('li').children('a').css('border-bottom', '1px solid #202020');
+			$(this).children('a').css('border-bottom-color', '#ef2f23');
+		}, function () {
+			$(this).css('background', '').prev('li').children('a').css('border-bottom', '1px solid #fff');
+			$(this).children('a').css('border-bottom-color', '#fff');
+		});
+	}
+
 	/* 限时疯抢 */
 	$('.prcMain').hover(function () {
 		$(this).children('img').stop().animate({"right": '70px'}, 200, 'linear');
@@ -130,9 +163,99 @@ $(function () {
 	
 	/* 快抢发新日 */
 	/* 轮播图部分 */
-	var timerNew = null;
-	timerNew = setInterval(function () {
+	// var timerNew = null;
+	// timerNew = setInterval(function () {
 
-	}, 2000);
+	// }, 2000);
+	
+	/* 品牌特卖及以下的图片处理 */
+	let $imgAnimt = $('.special>.img-animt>div:nth-child(2)');
+	let $imgsAnimt = $('.special>.img-animt>.imgs-animt');
+
+	$('.special>.img-animt>div:nth-child(2)>.ad-txt, .special>.img-animt>div:nth-child(2)>a').hover(function () {
+		$(this).parent().children('a').children('img').stop().animate({'top': '-5px'}, 200, 'linear');
+	}, function () {
+		$(this).parent().children('a').children('img').stop().animate({'top': 0}, 200, 'linear');
+	});
+	$imgsAnimt.children('.ad-square').hover(function () {
+		$(this).children('a').children('img').stop().animate({'top': '-5px'}, 200, 'linear');	
+	}, function () {
+		$(this).children('a').children('img').stop().animate({'top': 0}, 200, 'linear');
+	});
+
+	/* 固定导航栏 & 回到顶部 */
+	var Height = $(window).height();
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 0) {
+			$('.r-sidebar>ol>li:last-child').css('display', 'block');
+		} else {
+			$('.r-sidebar>ol>li:last-child').css('display', 'none');
+		}
+		if ($(this).scrollTop() > Height) {
+			$('.fixed-nav').css('display', 'block');
+		} else {
+			$('.fixed-nav').css('display', 'none');
+		}
+		leader = $(this).scrollTop();
+	});
+	/* 固定导航栏的下拉菜单 */
+	var tM = null;
+	$('.fixed-nav>.nav-t1').hover(function () {
+		$('.fixed-nav>ul').css('display', 'block');
+		$('.fixed-nav>ol').css('display', 'block');
+	}, function () {
+		tM = setTimeout(function () {
+			$('.fixed-nav>ul').css('display', 'none');
+			$('.fixed-nav>ol').css('display', 'none');
+		}, 200);
+	});
+	var tF = null;
+	for (let i = 0; i < $('.fixed-nav>ul>li').length; i++) {
+		$('.fixed-nav>ul>li').eq(i).hover(function () {
+			clearInterval(tF);
+			clearInterval(tM);
+			$('.fixed-nav>ul').css('display', 'block');
+			$('.fixed-nav>ol>li').eq(i).css('display', 'block').siblings('li').css('display', 'none');
+		}, function () {
+			clearInterval(tM);
+			tF = setTimeout(function () {
+				$('.fixed-nav>ol>li').eq(i).css('display', 'none');
+				$('.fixed-nav>ul').css('display', 'none');
+			}, 200);
+		});
+		$('.fixed-nav>ol>li').eq(i).hover(function () {
+			clearInterval(tF);
+			clearInterval(tM);
+			$(this).eq(i).css('display', 'block').siblings('li').css('display', 'none');
+		}, function () {
+			clearInterval(tM);
+			tF = setTimeout(function () {
+				$('.fixed-nav>ol').css('display', 'none');
+				$('.fixed-nav>ul').css('display', 'none');
+			}, 200);
+		});
+	}
+	/* 回到顶部 */
+	var back = null;
+	$('.r-sidebar>ol>li:last-child').click(function () {
+		$(window).scrollTop(0);
+	});
+
+	/* 商品倒计时 */
+	var count = null;	// 定义定时器
+	var now = null;	// 定义当前时间
+	var actime = '';	// 获取倒计时时间
+	var td = 0;	
+	actime = $('.countdown>p').html();
+	td = Math.floor(actime/1000);
+	alert(td);	//NAN
+	// 倒计时函数
+	function countDown () {
+		// now = new Date();
+		count = setInterval(function () {
+			// actime = Math.floor()
+		}, 1000);
+	}
+	countDown();
 	
 });
